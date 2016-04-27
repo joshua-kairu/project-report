@@ -1,0 +1,567 @@
+
+\documentclass[12pt,svgnames,smaller]{article} % use larger type; default would be 10pt
+
+\usepackage[table]{xcolor}
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{mathrsfs}
+
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newtheorem{myalg}{Algorithm}
+\newtheorem{mydef}{Definition}
+\newtheorem{myprop}{Proposition}
+\newtheorem{myproof}{Proof}
+\newtheorem{myexample}{Example}
+
+\usepackage{amsmath}
+\newcommand{\E}[1]{\textnormal{\textsf{E}}\!\left[#1\right]} % expectation
+
+\usepackage{tabularx}
+
+%\usepackage{tabulary}
+
+\renewcommand{\labelenumi}{\alph{enumi})} % change the listing of the first level of lists to a) b) c)
+
+\renewcommand{\labelenumii}{\roman{enumii}.} % change the listing of the second level of lists to i. ii. iii.
+
+\renewcommand{\labelenumiii}{(\alph{enumiii})} % change the listing of the third level of lists to (a) (b) (c)
+
+\newenvironment{xitemize}
+{\begin{minipage}[t]{0.5\textwidth}\begin{itemize}}
+		{\end{itemize}\end{minipage}}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			
+			% Upper part of the page
+			% ======================
+			
+			\textsc{\large Jomo Kenyatta University of Agriculture and Technology (JKUAT)}\\[0.4cm]
+			%\textsc{\Large College of Pure and Applied Science (COPES)}\\[1.0cm]
+			%\textsc{\Large School of Computing and Information Technology (SCIT)}\\[0.5cm]
+			\textsc{\large Department of Computing}\\[0.4cm]
+			\textsc{\large ICS2406: Computer Systems Project  }\\[0.3cm]
+			\textsc{\large System Analysis and Design}\\[0.3cm]
+			\textsc{\large REF:JKU/2/83/022 }\\[0.2 cm]
+			
+			% Title
+			% =====
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/JKUAT_logo"}
+				\label{fig:JKUAT_logo}
+			\end{figure}
+			\textbf{\texttt{ Project Title: Cheaper Exchange of Information Via Wireless Technology }}{\vspace*{20 mm}}
+		\end{center}
+		
+		% Author and supervisors
+		% ======================
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/JKUAT_logo"}
+			\label{fig:JKUAT_logo}
+		\end{figure}
+		
+		
+		\begin{minipage}{1.0\textwidth}	
+			\begin{flushleft} \large
+				\emph{Author:}\\
+				Name: Kairu \textsc{Joshua Wambugu} Reg. No: CS281-0720/2011 \\
+				Submission Date: \hrulefill  Sign: \hrulefill \\
+				Course: Bsc. Computer Science
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 1:} \\
+				Name: Professor \textsc{Waweru Mwangi} Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 2:} \\
+				Name: Doctor \textsc{Petronilla Muthoni} Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 3:} \\
+				Name: \hrulefill Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\vfill
+		
+		% Bottom of the page
+		% ==================
+		
+		\begin{center}
+			{\large Period: June 2015}
+		\end{center}
+		%{\large \today}
+		%\end{center}
+	\end{titlepage}
+	
+	%\maketitle
+	
+	\clearpage
+
+	\tableofcontents
+	\clearpage
+				
+	% begin Background/Introduction
+	% ============================
+	
+	\section{\textbf{Background/Introduction}}
+	
+	This project aspires to create a method through which two devices might communicate via wireless technology at a cheaper cost. The project aims to achieve this goal by using Wi-Fi communication between two mobile devices. The next few pages outline the system analysis and system design processes behind the system.
+	
+	% end Background/Introduction
+	% ==========================
+	
+	% begin System Analysis
+	% ===================
+	
+	\section{\textbf{System Analysis} } 
+	
+	In this section, we will look at two requirements needed by any computer system:
+	
+	% begin enumerate requirements
+	\begin{enumerate}
+		\item Functional requirements.
+		\item Non-functional requirements.
+	\end{enumerate}
+	% begin enumerate requirements
+	
+	These are discussed starting now.
+
+	% begin subsection Functional requirements.
+	\subsection{Functional requirements}
+
+	The system has two functional requirements.
+	
+	First, it should allow \textbf{two smartphones} to \textbf{connect to each other over wireless}. This should be done \textbf{without} the use of \textbf{an intermediary device}. This will be achieved using relevant code on both phones, as well as a WiFi connection between the two.
+	
+	Second, the system should allow \textbf{audio data} to be \textbf{transferred between the two connected phones}. This is also to be done using code.
+	
+	% end subsection Functional requirements.
+
+	% begin subsection Non-functional requirements.
+	\subsection{Non-functional requirements}
+	
+	These are also two.
+	
+	First, the system should be \textbf{secure}. This is important because audio can easily be recorded and misused by malicious individuals. Security over WiFi has always been a challenge. Since we cannot control the circumstances and motives of all who will end up using this system, we can only hope that they will set up their WiFi connections over a protected wireless link. During the implementation phase of this project, we plan to use a connection protected by WPA-PSK2.
+
+	Second, the system should provide for \textbf{audio clarity}. The sound heard by individuals on both ends of the device should be clear enough for them to recognize. We hope that the inbuilt sound processing systems of the devices we will use have this facility in place.
+	
+	% end subsection Non-functional requirements.
+	
+	% end System Analysis
+	% ==================	
+
+	% begin System Design
+	% ==================	
+	
+	\section{\textbf{System Design}}
+
+	To show the design of this system, we will use the following diagrams:
+	
+	% begin enumerate design diagrams
+	\begin{enumerate}
+		\item The Network Topology Diagram;
+		\item Class Diagrams; 
+		\item Activity Diagrams; 
+		\item The Sequence Diagram; and
+		\item The Navigation Diagram.
+	\end{enumerate}
+	% end enumerate design diagrams
+	
+	% begin subsection The Network Topology Diagram
+	\subsection{The Network Topology Diagram}
+	
+	Since the project is centered on creating a connection between two devices, we have to outline how the network will look. This is highlighted in the network topology diagram in Figure \ref{fig:SystemAnalysisandDesign-Network_Topology_Diagram}. 
+
+	The figure shows two phones serving as server and client. The numbers close to the points where arrows touch the phones indicate the number of servers and clients allowed to communicate with each other at a moment. The 1's close to where the arrows touch the phones show that there can only be one server communicating with one client at any particular point in time. 
+	
+	This understanding is important as we design the system further since it ensures that we will not focus on broadcasts, multicasts, or any other one-to-many communication form.
+	
+	% begin figure The Network Topology Diagram
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Network_Topology_Diagram"}
+		\caption{The Network Topology Diagram}
+		\label{fig:SystemAnalysisandDesign-Network_Topology_Diagram}
+	\end{figure}
+	% end figure The Network Topology Diagram
+	
+	% end subsection The Network Topology Diagram
+		
+	% begin subsection Class Diagrams
+	\subsection{Class Diagrams}
+	
+	Class diagrams show the various classes used in a software system as well as how these classes are related.
+	
+	Our system has a total of 11 classes. These classes are explained below.
+	
+	% begin enumerate classes
+	\begin{enumerate}
+		% begin class diagram for HomeActivity, ReceiveCallActivity, IncomingCallActivity, CallInSessionActivity, MakeCallActivity 
+		\begin{figure}
+			\makebox[\textwidth][c]{
+			\centering
+			\begin{minipage}{0.7\linewidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity"}
+			\end{minipage}%
+			\begin{minipage}{0.7\linewidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_CallInSessionActivity,_MakeCallActivity"}
+			\end{minipage}
+		}
+		\caption{Class Diagrams for \texttt{HomeActivity}, \texttt{ReceiveCallActivity}, \texttt{IncomingCallActivity}, \texttt{CallInSessionActivity} and \texttt{MakeCallActivity}}			\label{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}
+	\end{figure}
+	% end class diagram for HomeActivity, ReceiveCallActivity, IncomingCallActivity, CallInSessionActivity, MakeCallActivity 
+
+		\item \textbf{\texttt{HomeActivity} class.} This class is the point at which the user lands when they fire up the system. 
+		
+		The class diagram for the \texttt{HomeActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}
+		
+		\item \textbf{\texttt{ReceiveCallActivity} class.} This class waits for a call to arrive and processes the requests of the caller.
+		
+		The class diagram for the \texttt{ReceiveCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}.
+		
+		\item \textbf{\texttt{IncomingCallActivity} class.} This class alerts the user to an incoming call. It allows the user to their accept or reject the call.
+
+		The class diagram for the \texttt{IncomingCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}.
+		
+		\item \textbf{\texttt{CallInSessionActivity} class.} This is the class where audio data is sent and received between the two connected devices.
+
+		The class diagram for the \texttt{CallInSessionActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}.
+		
+		\item \textbf{\texttt{MakeCallActivity} class.} This class allows the user to select a contact to call.
+
+		The class diagram for the \texttt{MakeCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity,_CallInSessionActivity,_MakeCallActivity}.
+		
+		\item \textbf{\texttt{CallingActivity} class.} In this class, the user calls the contact selected in the \texttt{MakeCallActivity} class. If the contact is not a viable receiver or is busy, this class informs the user of the same. When the called individual picks up, this class directs the user to an instance of \texttt{CallInSessionActivity}.
+
+		% begin class diagram for CallingActivity, Contact, SearchForContactsThread, WifiStateChangeBroadcastReceiver, SendRecordedSoundTimerTask, SocketServerThread
+		\begin{figure}
+			\makebox[\textwidth][c]{
+				\centering
+				\begin{minipage}{0.7\linewidth}
+					\centering
+					\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver"}
+				\end{minipage}%
+				\begin{minipage}{0.7\linewidth}
+					\centering
+					\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread"}
+				\end{minipage}
+			}
+			\caption{Class Diagrams for \texttt{CallingActivity}, \texttt{Contact}, \texttt{SearchForContactsThread}, \texttt{WifiStateChangeBroadcastReceiver}, \texttt{MakeCallActivity}, \texttt{SendRecordedSoundTimerTask} and \texttt{SocketServerThread}}			\label{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}
+		\end{figure}
+		% end class diagram for CallingActivity, Contact, SearchForContactsThread, WifiStateChangeBroadcastReceiver, SendRecordedSoundTimerTask, SocketServerThread
+
+		The class diagram for the \texttt{CallingActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		\item \textbf{\texttt{Contact} class}. This class represents a contact on the contact list found in \texttt{MakeCallActivity}.
+
+		The class diagram for the \texttt{Contact }class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		\item \textbf{\texttt{SearchForContactsThread} class}. This class extends the Java \texttt{Thread} class and is used to search for contacts from available hotspots. Searching for contacts is fairly expensive in terms of time. This means that doing it from the same thread as the UI thread would make the app look like it is hanging. To avoid this circumstance, in this class we search for contacts using a thread different from the UI thread.
+		
+		The class diagram for the \texttt{SearchForContactsThread} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		\item \textbf{\texttt{WifiStateChangeBroadcastReceiver} class}. This class extends the Android \texttt{BroadcastReceiver} class. Whenever the state of an Android device's WiFi changes, the new state is broadcast throughout the applications of the device. To receive that broadcast, an application needs to extends the \texttt{BroadcastReceiver} class. Since our system needs to be informed the moment WiFi is turned on so as to scan for contacts, we use the  \texttt{WifiStateChangeBroadcastReceiver} class and configure it to receive the “WiFi on” state.
+
+		The class diagram for the \texttt{WifiStateChangeBroadcastReceiver} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		\item \textbf{\texttt{SendRecordedSoundTimerTask} class}. This class extends the Android \texttt{TimerTask} class. \texttt{TimerTask} classes are used to perform actions at specific intervals of time. We use the \texttt{SendRecordedSoundTimerTask} class to record audio every second and to send the recorded audio every second.
+
+		The class diagram for the \texttt{SendRecordedSoundTimerTask} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		\item \textbf{\texttt{SocketServerThread} class}. Like the \texttt{SearchForContactsThread} class above, this extends the Java \texttt{Thread} class. It is used by the \texttt{ReceiveCallActivity} class to listen for any connections coming in from the \texttt{CallingActivity} class. 
+		
+		The class diagram for the \texttt{SocketServerThread} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver,_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+	\end{enumerate}
+	% end enumerate classes
+	
+	A summarized class diagram showing relationships between classes is called an elided class diagram. Our elided class diagram is seen in Figure \ref{fig:SystemAnalysisandDesign-Class_Diagram_-_Elided}. The next few paragraphs explain the elided diagram.
+	
+		% begin elided class diagram
+		\begin{figure}
+			\centering
+			\makebox[\textwidth][c]{\includegraphics[width=2\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_Elided"}}%
+			\caption{Elided Class Diagram}%
+			\label{fig:SystemAnalysisandDesign-Class_Diagram_-_Elided}
+		\end{figure}
+		% end elided class diagram
+	
+	To begin with, we see \texttt{HomeActivity} can start one of either \texttt{ReceiveCallActivity} or \texttt{MakeCallActivity}. \texttt{HomeActivity} cannot start both these two classes at the same time.
+	
+	The filled diamond on the line connecting \texttt{ReceiveCallActivity} to \texttt{SocketServerThread} tells us that \texttt{ReceiveCallActivity} has a \texttt{SocketServerThread} instance and that the \texttt{SocketServerThread} instance cannot exist without the \texttt{ReceiveCallActivity} instance. This is so because the \texttt{SocketServerThread} class exists to assist the \texttt{ReceiveCallActivity} class connect to clients. The \texttt{ReceiveCallActivity} can start only one instance of the \texttt{IncomingCallActivity} class.
+	
+	\texttt{IncomingCallActivity} can start only one instance of \texttt{CallInSessionActivity}. There is not much else \texttt{IncomingCallActivity} can do in terms of inter-class interactions.
+	
+	\texttt{MakeCallActivity} has one \texttt{SearchForContactsThread} object and one \texttt{WifiStateChangeBroadcastReceiver} object. However, it can have as many \texttt{Contact} objects as possible. \texttt{MakeCallActivity} uses a \texttt{SearchForContactsThread} object to search for contacts and display them. It uses a \texttt{WifiStateChangeBroadcastReceiver} instance to be alerted whenever the WiFi is turned on. And \texttt{MakeCallActivity} can have as many \texttt{Contact} objects as possible since  we cannot determine beforehand how many hotspots there will be around the place of application execution. The last thing about \texttt{MakeCallActivity} is that it can start only one instance of the \texttt{CallingActivity} class. 
+	
+	Just like \texttt{IncomingCallActivity}, \texttt{CallingActivity} can start only one \texttt{CallInSessionActivity} object and can do nothing much else.
+	
+	From the diagram, we see that \texttt{CallInSessionActivity} instances can be instantiated by either \texttt{IncomingCallActivity} instances or \texttt{CallingActivity} instances. Each of those last two mentioned classes can start only one \texttt{CallInSessionActivity} object each. \texttt{CallInSessionActivity} has a \texttt{SendRecordedSoundTimerTask} object which it uses to send recorded sound every second and to receive recorded sound and play it every second.
+	
+	% end  subsection Class Diagrams	
+	
+	% begin subsection Activity Diagrams
+	\subsection{Activity Diagrams}
+
+	Activity diagrams highlight the order in which instructions are executed in an instance of a class.
+	
+	In our case, all classes which have a set of instructions to execute have their activity diagrams drawn. Explanations are as follows.
+	
+	% begin enumerate of activity diagrams
+	\begin{enumerate}
+
+		% begin activity diagram for HomeActivity, ReceiveCallActivity
+		\begin{figure}
+			\centering
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_HomeActivity"}
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_RecieveCallActivity"}	
+			\end{minipage}
+			\caption{Activity Diagram for \texttt{HomeActivity} on the left and \texttt{ReceiveCallActivity} on the right}
+			\label{fig:SystemAnalysisandDesign-Activity_Diagram_-_HomeActivity,_ReceiveCallActivity}		
+		\end{figure}
+		% end activity diagram for HomeActivity, ReceiveCallActivity	
+
+		\item \textbf{\texttt{HomeActivity} class.} 
+		
+		The activity diagram for the HomeActivity class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_HomeActivity,_ReceiveCallActivity}
+		
+		The class starts off displaying to the user a UI that allows him/her to choose which role they want to be: caller or receiver. If the user chooses to make a call, the class starts the \texttt{MakeCallActivity} class. If the user chooses to receive a call, the class starts the \texttt{ReceiveCallActivity}. After processing user requests, \texttt{HomeActivity} terminates.
+		
+		\item \textbf{\texttt{ReceiveCallActivity }class. }
+
+		The activity diagram for the \texttt{ReceiveCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_HomeActivity,_ReceiveCallActivity}.
+
+		We begin by displaying to the user that the system is waiting for a call. We then begin listening for any incoming connections using an instance of the \texttt{SocketServerThread} class. We keep doing this listening until we receive a connection from the \texttt{CallingActivity} class. On receiving such a connection, we start an instance of the \texttt{IncomingCallActivity} class and pause the \texttt{ReceiveCallActivity} class. An option is there to terminate the \texttt{ReceiveCallActivity} if necessary.
+		
+		\item \textbf{\texttt{IncomingCallActivity} class.} 
+
+		% begin activity diagram for IncomingCallActivity, CallInSessionActivity
+		\begin{figure}
+			\centering
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_IncomingCallActivity"}
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_CallInSessionActivity"}
+			\end{minipage}
+			\caption{Activity Diagram for \texttt{IncomingCallActivity} on the left and \texttt{CallInSessionActivity} on the right}
+			\label{fig:SystemAnalysisandDesign-Activity_Diagram_-_IncomingCallActivity,_CallInSessionActivity}		
+		\end{figure}
+		% end activity diagram for IncomingCallActivity, CallInSessionActivity	
+		
+		The activity diagram for the \texttt{IncomingCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_IncomingCallActivity,_CallInSessionActivity}
+		
+		In this class, we start by displaying the needed UI so that the user might know that a call is incoming. We then retrieve references to the connection established in the parent activity of this class. The parent activity is the \texttt{ReceiveCallActivity} since instances of the \texttt{IncomingCallActivity} class are started off by instances of the \texttt{ReceiveCallActivity} class. Part of the UI of the \texttt{IncomingCallActivity} class contains two buttons: one for accepting the incoming call and the other for rejecting it. If the user taps the “Accept” button, the \texttt{IncomingCallActivity} class starts a \texttt{CallInSessionActivity} activity then terminates. If the user selects “Reject” then \texttt{IncomingCallActivity} simply terminates. In the latter case, since \texttt{IncomingCallActivity} was started by \texttt{ReceiveCallActivity} and since \texttt{ReceiveCallActivity} had been paused after starting \texttt{IncomingCallActivity}, \texttt{ReceiveCallActivity} is resumed.
+		
+		\item \textbf{\texttt{CallInSessionActivity} class.} 
+		
+		The activity diagram for the \texttt{CallInSessionActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_IncomingCallActivity,_CallInSessionActivity}.
+		
+		This class begins by initializing the speaker and mute to be off. It sets up the display, initializes the media recorder used for recording sound and initializes the media player used to play sound. It also gets references to the previously established connection. These references come from the class that started this class. As we saw in the class diagrams, \texttt{CallInSessionActivity} can be started by either \texttt{CallingActivity} (from the caller's side) or \texttt{IncomingCallActivity} (from the receiver's side). Either parent class has references to the established network connection and passes these to the \texttt{CallInSessionActivity} class. The UI in \texttt{CallInSessionActivity} has a button for ending the call. As long as this button is not clicked, the class records sound and sends it to the \texttt{CallInSessionActivity} instance on the other side of the network. The class also receives sent sound and plays it. As soon as the end button is clicked, the class terminates.
+		
+		\item \texttt{MakeCallActivity} class. This class allows the user to select a contact to call.
+		
+		% begin activity diagram for MakeCallActivity, CallingActivity
+		\begin{figure}
+			\centering
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_MakeCallActivity"}
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_CallingActivity"}
+			\end{minipage}
+			\caption{Activity Diagram for \texttt{MakeCallActivity} on the left and \texttt{CallingActivity} on the right}
+			\label{fig:SystemAnalysisandDesign-Activity_Diagram_-_MakeCallActivity,_CallingActivity}		
+		\end{figure}
+		% end activity diagram for MakeCallActivity, CallingActivity	
+				
+		The activity diagram for the \texttt{MakeCallActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_MakeCallActivity,_CallingActivity}.
+		
+		We begin by displaying a user interface which will show the user the contacts available for him/her to call and allow the user to scan for contacts. The class also gets the SSID of the user's device. This will be used to identify the user when he/she calls another. After this, the class initializes a \texttt{SearchForContactsThread} object, which will be used to search for contacts when the user elects to scan for some. The final initialization step is to turn on the WiFi. If the user scans for contacts and none are found, they can keep scanning for them. Any contacts that the class finds will be displayed in a list. When the user selects a contact to call, \texttt{MakeCallActivity} establishes a network connection with the selected contact, starts \texttt{CallingActivity}, then pauses itself. The user has the option of eventually terminating this class if he/she sees fit.
+		
+		\item \textbf{\texttt{CallingActivity} class.} 
+		
+		The activity diagram for the \texttt{CallingActivity} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_MakeCallActivity,_CallingActivity}.
+		
+		As usual for an \texttt{Activity} class, this class begins by displaying the relevant UI. It then waits for five seconds to simulate the behavior users might expect during the making of a call. Without this delay, the app will execute very quickly and that might leave users a bit confused. After the five seconds, we get references to the previously set up connection. This connection is the one set up at \texttt{MakeCallActivity}. Then we process the messages coming from the \texttt{IncomingCallActivity}, which by this time should be running on the device on the other side of the network. If the \texttt{IncomingCallActivity} sends a “PICKED\_UP” message, this means that the other user has picked up the call and so we start \texttt{CallInSessionActivity}. If we receive a “REJECTED” instead, this means that the user does not desire to communicate now so we change the UI inform the caller of this. After processing the messages, we terminate the \texttt{CallingActivity} instance, leaving either the newly started \texttt{CallInSessionActivity} instance or the previously paused \texttt{MakeCallActivity} instance to continue interacting with the user.
+		
+		\item \textbf{\texttt{SearchForContactsThread} class.} 
+		The activity diagram for the \texttt{SearchForContactsThread} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_SearchForContactsThread,_WifiStateChangeBroadcastReceiver}.
+			
+		% begin activity diagram for SearchForContactsThread, WifiStateChangeBroadcastReceiver
+		\begin{figure}
+			\centering
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_SearchForContactsThread"}
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_WifiStateChangeBroadcastReceiver"}
+			\end{minipage}
+			\caption{Activity Diagram for \texttt{SearchForContactsThread} on the left and \texttt{WifiStateChangeBroadcastReceiver} on the right}
+			\label{fig:SystemAnalysisandDesign-Activity_Diagram_-_SearchForContactsThread,_WifiStateChangeBroadcastReceiver}		
+		\end{figure}
+		% end activity diagram for SearchForContactsThread, WifiStateChangeBroadcastReceiver
+		
+		This class starts out by disabling the button used to scan for contacts. This is done to show the user that they cannot scan until the previous scan request has been fully processed. Thankfully, processing scan requests in a separate thread takes a rather short time. The class then initializes a set of \texttt{Contact} instances from the hotspots found after scanning. After this, the class populates the \texttt{ListView} of \texttt{MakeCallActivity} with this list of \texttt{Contact}s. The last thing done by this class is enabling the scanning button.
+		
+		\item \textbf{\texttt{WifiStateChangeBroadcastReceiver} class.} 
+
+		The activity diagram for the \texttt{WifiStateChangeBroadcastReceiver} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_SearchForContactsThread,_WifiStateChangeBroadcastReceiver}.
+		
+		What happens in this class is fairly simple. We get the wait for the WiFi state to change. It changes to the state where it is enabled, we start searching for available contacts and then terminate after doing so.
+		
+		\item \textbf{\texttt{SendRecordedSoundTimerTask} class.} 
+		
+		The activity diagram for the \texttt{SendRecordedSoundTimerTask} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		% begin activity diagram for SendRecordedSoundTimerTask, SocketServerThread
+		\begin{figure}
+			\centering
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_SendRecordedSoundTimerTask"}
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_Diagram_-_SocketServerThread"}
+			\end{minipage}
+			\caption{Activity Diagram for \texttt{SendRecordedSoundTimerTask} on the left and \texttt{SocketServerThread} on the right}
+			\label{fig:SystemAnalysisandDesign-Activity_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread}		
+		\end{figure}
+		% end activity diagram for SendRecordedSoundTimerTask, SocketServerThread
+					
+		This class is very important for the sending and receiving of audio data between \texttt{CallInSessionActivity} instances. What happens in this class is generally controlled by a flag which oscillates between the “record” and the “stop recording and send recorded file” states. Since the class does its job based on fixed intervals of time, if timing is canceled then the class terminates. The class starts off with the flag set to the “record” state. In this state, the class starts recording sound for a fixed amount of time. When that is finished, it sets the flag to the “stop recording and send file” state. As long as the timing is not canceled, processing continues. The value of the flag is read and found to be “stop recording and send file”. As long as the timing is not canceled, processing continues. With timing still not canceled, the class checks the flag, sees that it reads “record”, and goes about executing the “record” state. This cycle goes on until the timing gets canceled.
+		
+		\item \textbf{\texttt{SocketServerThread} class.} 
+		
+		The activity diagram for the \texttt{SocketServerThread} class is seen in Figure \ref{fig:SystemAnalysisandDesign-Activity_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread}.
+		
+		This class is where most of the networking is done. We first attempt to connect to a client. If the attempt fails, we inform the user of a failure and then we keep waiting for a connection. If we are able to set up the connection, we then get references to that connection. These references are important since they help us send data to and receive data from device at the other end. With the references acquired, we can now start processing requests from the connected party.
+		
+	\end{enumerate}
+	% end enumerate of activity diagrams
+							
+	% end subsection Activity Diagrams
+	
+	\clearpage
+	% begin subsection The Sequence Diagram
+	\subsection{The Sequence Diagram}
+	% begin figure Sequence Diagram
+	\begin{figure}
+		\centering
+		\makebox[\textwidth][c]{\includegraphics[width=1.4\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequence_Diagram"}}%
+		\caption{The Sequence Diagram}
+		\label{fig:SystemAnalysisandDesign-Sequence_Diagram}
+	\end{figure}%
+	% end figure Sequence Diagram
+	% begin figure Sequence Diagram Legend
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequence_Diagram_Legend"}
+		\caption{The Sequence Diagram Legend}
+		\label{fig:SystemAnalysisandDesign-Sequence_Diagram_Legend}
+	\end{figure}
+	% end figure Sequence Diagram Legend
+	
+	A sequence diagram is used to show how different objects in a system interact with each other. The sequence diagram for this project is shown in Figure \ref{fig:SystemAnalysisandDesign-Sequence_Diagram}.	The table in Figure \ref{fig:SystemAnalysisandDesign-Sequence_Diagram_Legend} explains what each of the text styles in the sequence diagram represents.
+	
+	Below is a brief explanation of what happens.
+	
+		% begin itemize sequence diagram explanation
+		\begin{itemize}
+			\item {\textbf{\texttt{HomeActivity}}}: The system starts at this activity. The user chooses if they want to make a call or receive a call. Depending on the user’s choice, the system calls a \texttt{startActivity()} for an instance of either the \texttt{MakeCallActivity} class or the \texttt{ReceiveCallActivity} class. After doing this, the \texttt{HomeActivity} activity finishes and closes down.
+			\item \textbf{\texttt{MakeCallActivity}}: This activity is started when the user decides to make a call. Here, the user can select which individual to call. When the individual to be called is chosen, the \texttt{MakeCallActivity} activity calls the \texttt{CallingActivity} activity which will attempt to call the chosen individual. The sequence diagram shows that two extras are passed to the \texttt{CallingActivity} activity. An extra is a piece of data passed between Android activities. These two extras are the name of the called individual as well as the name of the individual calling. After starting the \texttt{CallingActivity} activity, the \texttt{MakeCallActivity} activity suspends itself but does not close down.
+			\item \textbf{\texttt{CallingActivity}}: This activity sends a “DISCOVER” network message to the \texttt{ReceiveCallActivity} activity of the individual being called. Along with the “DISCOVER”, the \texttt{CallingActivity} activity sends the name of the caller to the \texttt{ReceiveCallActivity} activity. The \texttt{ReceiveCallActivity} activity responds with an “OFFER” which confirms that it is active and has received the name of the called. As the diagram shows, the \texttt{ReceiveCallActivity} instance starts an \texttt{IncomingCallActivity} activity as soon as it sends the“OFFER”. The \texttt{CallingActivity} activity then sends a “CALLING YOU” network message, which will be received by an instance of the \texttt{IncomingCallActivity}. When the \texttt{IncomingCallActivity} activity sends the \texttt{CallingActivity} activity a “PICKED UP” in response to the “CALLING YOU”, the \texttt{CallingActivity} activity starts an instance of the \texttt{CallInSessionActivity} activity. The \texttt{CallingActivity} passes extras to the \texttt{CallInSessionActivity} containing the name of the called individual as well as the name of the parent activity. Since the user got to the \texttt{CallInSessionActivity} activity via the \texttt{MakeCallActivity} activity, the parent activity in this case is the \texttt{MakeCallActivity}. After passing these extras, the \texttt{CallingActivity} activity finishes and closes down. Remember that the \texttt{MakeCallActivity} instance is still suspended in the background.
+			\item \textbf{\texttt{ReceiveCallActivity}}: This activity is started when the user decides to wait to receive a call. When the \texttt{ReceiveCallActivity} activity receives a “DISCOVER” from a \texttt{CallingActivity} instance, it responds with a “OFFER” and starts an \texttt{IncomingCallActivity} instance – passing an extra containing the name of the caller. After starting the \texttt{IncomingCallActivity} activity, the \texttt{ReceiveCallActivity} activity suspends itself but does not close down.
+			\item \textbf{\texttt{IncomingCallActivity}}: This activity waits for a “CALLING YOU” from the \texttt{CallingActivity} activity and responds to it with a “PICKED UP” as soon as the called individual picks up the call. After sending the “PICKED UP” the \texttt{IncomingCallActivity} instance starts the \texttt{CallInSessionActivity} activity, passing extras containing the name of the caller and the name of the parent activity. Since the user got to the \texttt{CallInSessionActivity} activity via the \texttt{ReceiveCallActivity} activity, the parent activity in this case is the \texttt{ReceiveCallActivity}. After passing these extras, the \texttt{IncomingCallActivity} activity finishes and closes down. The \texttt{ReceiveCallActivity} instance still remains suspended in the background.
+			\item \textbf{\texttt{CallInSessionActivity}}: Here is where the actual voice transfer happens. \texttt{CallInSessionActivity} instances on the side of the caller and the called alternate in sending sound snippets. They do this by sending to each other a “SOUND BYTE” network message and a byte array containing a sound snippet immediately after that. This happens in fixed intervals so that sound is heard continuously. When the users decide to end the call, both \texttt{CallInSessionActivity} instances send each other “TERMINATE” network messages and close down by calling \texttt{finish()}. The system then goes back to the corresponding background activity, either \texttt{MakeCallActivity} for the caller or \texttt{ReceiveCallActivity} for the person being called.
+		\end{itemize}
+		% begin itemize sequence diagram explanation
+	% end subsection The Sequence Diagram
+	
+	% begin subsection The Navigation Diagram
+	\subsection{The Navigation Diagram}
+
+	% begin figure Navigation Diagram
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Navigation_Diagram"}
+		\caption{The Navigation Diagram}
+		\label{fig:SystemAnalysisandDesign-Navigation_Diagram}
+	\end{figure}
+	% end figure Navigation Diagram	
+	
+	An application’s navigation diagram shows how a user can maneuver through the said application. Figure \ref{fig:SystemAnalysisandDesign-Navigation_Diagram} shows the navigation options available to the user of the application being created in this project.
+	
+	The user starts off at the \texttt{HomeActivity} activity and selects whether to make a call or to receive a call.
+	
+	If, on the one hand, the user elects to make a call, they are directed to the \texttt{MakeCallActivity} activity where they choose a contact to call. Choosing a person to call leads them to the \texttt{CallingActivity} activity where the system attempts to connect to the phone being called. Successful connection leads to the user getting to the \texttt{CallInSessionActivity} activity where they can talk with the other individual. As soon as the call ends, the user is returned to the \texttt{MakeCallActivity} activity. Unsuccessful connection returns the user to the \texttt{MakeCallActivity} activity.
+
+	If, on the other hand, the user decides to receive a call, they are taken to the \texttt{ReceiveCallActivity} activity where they wait for an individual to call them. When a call comes in, the user is taken to the \texttt{IncomingCallActivity} activity where they can decide to reject or accept the call. Should the user reject the call, they are returned to the \texttt{ReceiveCallActivity} activity. Should the user accept the call, they are presented with the \texttt{CallInSessionActivity} activity where they can talk with the person on the other side of the line. At the end of the call, the user is taken back to the \texttt{ReceiveCallActivity} activity to wait for another call.
+	
+	The orange arrows show that it is – at least currently – possible for the user to exit the system at any time.	
+	
+	% end subsection The Navigation Diagram
+	
+	% end System Design
+	% =================
+	
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

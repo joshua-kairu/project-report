@@ -1,0 +1,548 @@
+
+\documentclass[12pt,svgnames,smaller]{article} % use larger type; default would be 10pt
+
+\usepackage[table]{xcolor}
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[pdftex]{graphicx}
+
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{mathrsfs}
+
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newtheorem{myalg}{Algorithm}
+\newtheorem{mydef}{Definition}
+\newtheorem{myprop}{Proposition}
+\newtheorem{myproof}{Proof}
+\newtheorem{myexample}{Example}
+
+\usepackage{amsmath}
+\newcommand{\E}[1]{\textnormal{\textsf{E}}\!\left[#1\right]} % expectation
+
+\usepackage{tabularx}
+
+%\usepackage{tabulary}
+
+\renewcommand{\labelenumi}{\alph{enumi})} % change the listing of the first level of lists to a) b) c)
+
+\renewcommand{\labelenumii}{\roman{enumii}.} % change the listing of the second level of lists to i. ii. iii.
+
+\renewcommand{\labelenumiii}{(\alph{enumiii})} % change the listing of the third level of lists to (a) (b) (c)
+
+\newenvironment{xitemize}
+{\begin{minipage}[t]{0.5\textwidth}\begin{itemize}}
+		{\end{itemize}\end{minipage}}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			
+			% Upper part of the page
+			% ======================
+			
+			\textsc{\large Jomo Kenyatta University of Agriculture and Technology (JKUAT)}\\[0.4cm]
+			%\textsc{\Large College of Pure and Applied Science (COPES)}\\[1.0cm]
+			%\textsc{\Large School of Computing and Information Technology (SCIT)}\\[0.5cm]
+			\textsc{\large Department of Computing}\\[0.4cm]
+			\textsc{\large ICS2406: Computer Systems Project  }\\[0.3cm]
+			\textsc{\large Implementation}\\[0.3cm]
+			\textsc{\large REF:JKU/2/83/022 }\\[0.2 cm]
+			
+			% Title
+			% =====
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/JKUAT_logo"}
+				\label{fig:JKUAT_logo}
+			\end{figure}
+			\textbf{\texttt{ Project Title: Cheaper Exchange of Information Via Wireless Technology }}{\vspace*{20 mm}}
+		\end{center}
+		
+		% Author and supervisors
+		% ======================
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/JKUAT_logo"}
+			\label{fig:JKUAT_logo}
+		\end{figure}
+		
+		
+		\begin{minipage}{1.0\textwidth}	
+			\begin{flushleft} \large
+				\emph{Author:}\\
+				Name: Kairu \textsc{Joshua Wambugu} Reg. No: CS281-0720/2011 \\
+				Submission Date: \hrulefill  Sign: \hrulefill \\
+				Course: Bsc. Computer Science
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 1:} \\
+				Name: Professor \textsc{Waweru Mwangi} Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 2:} \\
+				Name: Doctor \textsc{Petronilla Muthoni} Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\begin{minipage}{1.0\textwidth}
+			\begin{flushleft} \large
+				\emph{Supervisor 3:} \\
+				Name: \hrulefill Sign: \hrulefill Date: \hrulefill
+			\end{flushleft}
+		\end{minipage}
+		
+		\vfill
+		
+		% Bottom of the page
+		% ==================
+		
+		\begin{center}
+			{\large Period: June 2015}
+		\end{center}
+		%{\large \today}
+		%\end{center}
+	\end{titlepage}
+	
+	%\maketitle
+	
+	\clearpage
+
+	\tableofcontents
+	\clearpage
+				
+	% begin Background/Introduction
+	% =============================
+	
+	\section{\textbf{Background/Introduction}}
+	
+	This project, started around September 2015, had the aim of creating a situation where two smartphones would communicate with each other via wireless without using a third party such as a carrier network. At this time, about 7 months later, we present the implementation of the project.
+	
+	Implementation of this system was done using the Android programming language. This is the programming language used for creating applications for Android smartphones. The  Android language has some aspects of the eXtensible Markup Language (XML) language and the Java language. 
+	The application that resulted from the coding was tested on a couple of devices running various versions of the Android Operating System. Some of these devices included:
+	
+	% begin itemize testing devices
+	\begin{itemize}
+		\item A Huawei Ideos U8150, running Android version 2.2;
+		\item A Samsung GT-S6790, running Android version 4.1.2; and 
+		\item An InnJoo Fire Plus 3G, running Android 4.4.2. 
+	\end{itemize}
+	% begin itemize testing devices
+	
+	In the following pages and paragraphs, we will consider how the \textbf{implementation} of this project went along. We will see some of the \textbf{limitations} faced. We will reach a \textbf{conclusion} based on the data gotten from implementation. And finally we will make some \textbf{recommendations}.
+	
+	% end Background/Introduction
+	% ===========================
+	
+	% begin Implementation
+	% ===================
+	
+	\section{\textbf{Implementation} } 
+	
+	As was established during Research Methodology, this project was to boil down to three experiments.
+	
+	% begin enumerate experiments
+	\begin{enumerate}
+		\item Device connection;
+		\item Varying of distance with time held constant; and 
+		\item Varying of time with distance held constant.
+	\end{enumerate}
+	% end enumerate experiments
+	
+	We will use these experiments to guide us through this implementation section.
+	
+	% begin subsection Device connection
+	\subsection{\textbf{Device connection}}
+	
+	% begin Explanation
+	\textbf{\textit{\underline{Explanation}}}
+	
+	In this first experiment the idea was to try to see if two Android smart phones can connect and communicate via Wi-Fi without using any third party intermediary devices.
+	
+	The expected outputs of this experiment were:
+	
+	% begin itemize expected outputs
+	\begin{itemize}
+		\item A User Interface (UI) display informing us that the two Android devices have connected with each other.
+		\item Sound from one device playing on the other device.
+	\end{itemize}
+	% end itemize expected outputs
+	
+	Before we go far, it has to be mentioned that – as of the time of writing, Tuesday, April 5, 2016 – one has to manually set up the WiFi connection between the two devices before they can communicate. With that fact clearly understood, the following set of screenshots show how the UI looks like as a Huawei Ideos and a Samsung GT-S6790 try to connect to each other using the implemented application.  The screenshots on the left are taken from the Samsung while those on the right are from the Huawei. We will use the names of the individual phone’s hotspots as the unique identifiers of each of the phones. The Samsung’s hotspot name is AndroidAP while the Huawei’s hotspot name is Source of Net. The Samsung owner will wait for a call from the Huawei owner while the Huawei owner will try to call the Samsung owner. It should also be noted that the Samsung GT-S6790’s screen size is larger than that of the Huawei Ideos U8150. We have tried to increase the size of the Huawei screenshots for better visibility. This accounts for the difference is size of the screenshots.
+	
+	Our expectations going into this experiment were that the two devices would connect and transmit clear audio to each other.
+
+	% end Explanation
+
+	% begin Results
+	\textbf{\textit{\underline{Results}}}
+	
+		According to the navigation diagram seen in the Analysis and Design section, at the start both users should see the HomeActivity activity. This shown in Figures \ref{fig:Implementation-Figure1} and \ref{fig:Implementation-Figure2}.
+
+		The Samsung user chooses to receive a call – taking him/her to the ReceiveCallActivity activity. The Huawei user chooses to make a call – taking him/her to the MakeCallActivity activity. The MakeCallActivity activity starts off with no contacts to display. These situations are shown in Figures \ref{fig:Implementation-Figure3} and \ref{fig:Implementation-Figure4}.
+
+		The Samsung continues to wait for a call. The Huawei does a scan of available networks and lists them to the user. This is illustrated in Figures \ref{fig:Implementation-Figure5} and \ref{fig:Implementation-Figure6}.
+
+		The Samsung user keeps patiently waiting for a call while the Huawei user selects “AndroidAP” as the name of the hotspot he/she would like to call. We can see this set of events in Figures \ref{fig:Implementation-Figure7} and \ref{fig:Implementation-Figure8}.
+	
+		The Samsung user continues waiting for a call to come. The Huawei user is taken to the CallingActivity activity where the app attempts to connect to the “AndroidAP” hotspot. Figures \ref{fig:Implementation-Figure9} and \ref{fig:Implementation-Figure10} show us this.
+
+		By this time the Samsung has received the “DISCOVER” network message from the Huawei and has responded with an “OFFER” network message. The Samsung switches to the IncomingCallActivity activity and displays it to the user. The Huawei user waits for the Samsung user to pick up the phone. As the screenshots show, the call coming into the Samsung is from a device called “Source of Net” - this is the name of the Huawei’s hotspot. Figures \ref{fig:Implementation-Figure11} and \ref{fig:Implementation-Figure12} show screenshots of this particular stage of navigation.
+
+		Since we assume that the Samsung user wants to communicate with the Huawei user, the Samsung user chooses to accept the call from “Source of Net”. This leads both devices to display the CallInSessionActivity activity as seen below. The interface has buttons to end the activate the speakerphone, to mute the call, and to end the call. The user is also shown how much time the current call has taken so far. The screenshots in Figures \ref{fig:Implementation-Figure13} and \ref{fig:Implementation-Figure14} display what the users see at this point.
+
+		At the end of the call, either user can elect to tap on the “End Call” button. This will send the “TERMINATE” network message to the other user and end the call. After the call ends, the Samsung user will be returned to the ReceiveCallActivity activity to wait for another call, while the Huawei user will be returned to the MakeCallActivity activity to make another call. This fact is highlighted in Figures \ref{fig:Implementation-Figure15} and \ref{fig:Implementation-Figure16}.
+
+		This experiment's results were expected and unexpected. First, they were expected since we were able to connect two devices just as we had proposed at the outset. However, sound transmission between those two devices was found to be intermittent, resulting in inconsistent sound. This was unexpected.
+	
+		\clearpage
+		
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Home_Activity"}
+				\caption{Server Side - HomeActivity}
+				\label{fig:Implementation-Figure1}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Home_Activity"}
+					\caption{Client Side - HomeActivity}
+					\label{fig:Implementation-Figure2}
+			\end{minipage}
+		\end{figure} 
+	
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_Waiting_for_a_Call"}
+				\caption{Server Side - ReceiveCallActivity - Waiting for a Call}
+				\label{fig:Implementation-Figure3}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_No_Contacts"}
+				\caption{Client Side - MakeCallActivity - No Contacts}
+				\label{fig:Implementation-Figure4}
+			\end{minipage}
+		\end{figure} 
+	
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_Waiting_for_a_Call"}
+				\caption{Server Side - ReceiveCallActivity - Waiting for a Call}
+				\label{fig:Implementation-Figure5}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_Displaying_Available_Contacts"}
+				\caption{Client Side - MakeCallActivity - Displaying Available Contacts}
+				\label{fig:Implementation-Figure6}
+			\end{minipage}
+		\end{figure} 
+
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_Waiting_for_a_Call"}
+				\caption{Server Side - ReceiveCallActivity - Waiting for a Call}
+				\label{fig:Implementation-Figure7}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_AndroidAP_Selected"}
+				\caption{Client Side - MakeCallActivity - AndroidAP Selected}
+				\label{fig:Implementation-Figure8}
+			\end{minipage}
+		\end{figure} 		
+
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_Waiting_for_a_Call"}
+				\caption{Server Side - ReceiveCallActivity - Waiting for a Call}
+				\label{fig:Implementation-Figure9}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_Connecting_to_AndroidAP"}
+				\caption{Client Side - MakeCallActivity - Connecting to AndroidAP}
+				\label{fig:Implementation-Figure10}
+			\end{minipage}
+		\end{figure} 		
+
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_IncomingCallActivity_Being_Called_by_Source_of_Net"}
+				\caption{Server Side - IncomingCallActivity Being Called by Source of Net}
+				\label{fig:Implementation-Figure11}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_Connecting_to_AndroidAP"}
+				\caption{Client Side - MakeCallActivity - Connecting to AndroidAP}
+				\label{fig:Implementation-Figure12}
+			\end{minipage}
+		\end{figure} 		
+		
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_CallInSessionActivity_Call_Ongoing"}
+				\caption{Server Side - CallInSessionActivity Call Ongoing}
+				\label{fig:Implementation-Figure13}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_CallInSessionActivity_Call_Ongoing"}
+				\caption{Client Side - CallInSessionActivity Call Ongoing}
+				\label{fig:Implementation-Figure14}
+			\end{minipage}
+		\end{figure} 		
+
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_After_the_Call_is_Over"}
+				\caption{Server Side - ReceiveCallActivity After the Call is Over}
+				\label{fig:Implementation-Figure15}			
+			\end{minipage}%
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				\includegraphics[width=0.56\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCallActivity_After_the_Call_is_Over"}
+				\caption{Client Side - MakeCallActivity After the Call is Over}
+				\label{fig:Implementation-Figure16}
+			\end{minipage}
+		\end{figure} 		
+
+	% end Results
+	
+	% end subsection Device connection
+
+	% begin subsection Varying of distance with time held constant
+	\subsection{\textbf{Varying of distance with time held constant}}
+	
+	% begin Explanation
+	\textbf{\textit{\underline{Explanation}}}
+	
+	The idea of this experiment is to see how much distance will affect the quality of communication. We would connect two devices using the application, input a fixed amount of audio data into one of the devices, record the amount of bytes we had input, then record the amount of data that was received on the other device. We would then vary the distance between the two devices to see if physical separation would affect the amount of data transferred between the gadgets. We would limit the maximum distance between the two devices to 100 metres since this was we had established earlier as the maximum WiFi radius. 
+	
+	This experiment had the following expected outputs:
+	
+	% begin itemize expected outputs
+	\begin{itemize}
+		\item The amount of bytes lost at every distance.
+		\item Hopefully a graph of the same.
+	\end{itemize}
+	% end itemize expected outputs
+	
+	This experiment was done using an Android 2.2 Huawei Ideos U8150 and an Android 4.4.2 InnJoo Fire Plus 3G.
+	
+	Our expectation for this experiment was that the devices would lose practically no data when they were in close proximity but would suffer data loss as the distance between them increased.
+	
+	% end Explanation
+	
+	% begin Results
+	\textbf{\textit{\underline{Results}}}
+	
+	The data gotten from this experiment was stored in a table. This table is displayed in Figure \ref{fig:Implementation-Figure17}. Frankly the results were a bit surprising. It turned out that no data loss was experienced despite the increase in distance. This might be due to the fact that we used Java Socket objects to create connections between the two devices. According to the Java Application Program Interfaces (APIs), Java Socket classes implement sockets – endpoints  for communication between two devices. Java Sockets generally use TCP. This protocol ensures reliability, reliability meaning that all data sent from a sender is received by the receiver no matter the communication challenges such transmissions may face. The use of TCP in Java Sockets may be why no data was lost.
+	
+	A graphical form of the table in Figure \ref{fig:Implementation-Figure17} is shown in Figure \ref{fig:Implementation-Figure18}.
+	
+	% begin figure Table of Results of Varying Distance While Holding Time Constant
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Distance_-_Table"}
+			\caption{Table of Results of Varying Distance While Holding Time Constant}
+			\label{fig:Implementation-Figure17}			
+	\end{figure} 
+	% begin figure Table of Results of Varying Distance While Holding Time Constant
+
+	% begin figure Graph of Results of Varying Distance While Holding Time Constant
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Distance_-_Graph"}
+		\caption{Graph of Results of Varying Distance While Holding Time Constant}
+		\label{fig:Implementation-Figure18}			
+	\end{figure} 
+	% begin figure Graph of Results of Varying Distance While Holding Time Constant
+	
+	% end Results
+	
+	% end subsection Varying of distance with time held constant
+
+	% begin subsection Varying of time with distance held constant
+	\subsection{\textbf{Varying of time with distance held constant}}
+	
+	% begin Explanation
+	\textbf{\textit{\underline{Explanation}}}
+	
+	This experiment was to assist us to see whether the application would handle volumes of data gracefully. We would assume that if we vary the length of time recording and sending would take, we would vary the amount of data processed by the system. This would make sense since a five second recording would generate less data than, say, a ten second recording.
+	The plan would be to fix the distance between the two devices and vary the time taken for audio input. We fixed the distance at 50 metres and recorded audio over 100 seconds, noting any differences between the amount of data sent and received.
+	
+	The outputs anticipated include:
+	
+	% begin itemize expected outputs
+	\begin{itemize}
+		\item Data on the amount of data sent and received at various recording times.
+		\item A graph of comparing this data with the various talk times.
+	\end{itemize}
+	% end itemize expected outputs
+	
+	Our expectation was that the system was nimble and was robust enough to handle volumes of audio data.
+	
+	This experiment was also done using an Android 2.2 Huawei Ideos U8150 and an Android 4.4.2 InnJoo Fire Plus 3G.
+	
+	% end Explanation
+	
+	% begin Results
+	\textbf{\textit{\underline{Results}}}
+	
+	The result gotten was that over 100 seconds not a byte of data was lost when the device-to-device distance was fixed at 50 metres. This result was as shown in the table in Figure \ref{fig:Implementation-Figure18}.
+	
+	As can be seen from the table in Figure \ref{fig:Implementation-Figure19}, the amount of data sent from the sender is exactly the same amount received by the receiver. This is what we expected. We again attribute this to TCP. 
+	
+	The graph of this table is seen in Figure \ref{fig:Implementation-Figure20}. In the graph, notice that the lines showing data sent sand data received follow the same path. This is because they have similar values. The two lines have been given different thicknesses and colors to differentiate them.
+	
+	% begin figure Table of Results of Varying Time While Holding Distance Constant
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Audio_Data_Amount_-_Table"}
+		\caption{Table of Results of Varying Time While Holding Distance Constant}
+		\label{fig:Implementation-Figure19}			
+	\end{figure} 
+	% begin figure Table of Results of Varying Time While Holding Distance Constant
+	
+	% begin figure Graph of Results of Varying Time While Holding Distance Constant
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\linewidth]{"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Audio_Data_Amount_-_Graph"}
+		\caption{Graph of Results of the Varying Distance While Holding Time Constant}
+		\label{fig:Implementation-Figure20}			
+	\end{figure} 
+	% begin figure Graph of Results of Varying Time While Holding Distance Constant
+	
+	% end Results
+	
+	% end subsection Varying of time with distance held constant
+
+	% end Implementation
+	% ==================	
+
+	% begin Limitations
+	% ===============	
+	
+	\section{\textbf{Limitations}}
+
+	Some of the limitations that the implemented system faces are:
+	
+	% begin enumerate limitations
+	\begin{enumerate}
+		\item \textbf{Technological limitations.} Each of the devices used had a different Android OS version. This meant that each device's limits were different from the others. What this meant was that we could only implement the features found in the oldest version of the OSs we had – Android 2.2. We therefore missed out on the niftier features of the newer Android releases. This facts fits nicely with our second limitation.
+		\item \textbf{Choppy, intermittent sound.} Due to the use of old Android technology, advancements in Android audio streaming were unreachable for our system. This forced us to play sound only in discrete pieces that were not always audible.
+		\item \textbf{Manual setup.} As mentioned some paragraphs earlier, the application currently needs one to set up the wireless connection manually first before firing up the app. This limitation should be very solvable given enough time.
+		\item \textbf{Restriction to either calling or receiving.} At the moment, users of the app will be restricted to either making a call or receiving a call. They cannot do both. This is due to at least two reasons:
+		% begin itemize restrictions
+		\begin{itemize}
+			\item The Android 2.2 device used during testing had slow processing power so it could not switch between the WiFi station mode and the WiFi hotspot mode quickly enough.
+			\item The basic WiFi technology found in most Android devices (including the ones used for this project) is not designed for switching between the aforementioned WiFi modes in real time. So even with high speed gadgets, such a process would be inefficient. 
+		\end{itemize}
+		% end itemize restrictions
+		\item \textbf{Audio control.} Our team did not get the chance to adequately implement the speakerphone and mute button logic to our satisfaction. 
+	\end{enumerate}
+	% begin enumerate limitations
+
+	% end Limitations
+	% =============
+	
+	% begin Conclusion
+	% ===============	
+
+	\section{\textbf{Conclusion}}
+
+	Around September 2015 we came up with the idea that became this project. What were the objectives of the project? The objectives were as follows:
+	
+	% begin itemize project objectives
+	\begin{itemize}
+		\item Two smartphones should be able to connect with each other via wireless without the aid of an infrastructure device such as a wireless router or a wireless hotspot.
+		\item The aforementioned smartphones should then be able to send and receive data – initially audio data – between themselves.
+	\end{itemize}
+	% end itemize project objectives
+	
+	The experiments above have established that:
+	
+	% begin itemize experiment establishments
+	\begin{itemize}
+		\item 	Two smartphones can connect – or, more accurately, have connected –  with each other via wireless without the aid of an infrastructure device such as a wireless router or a wireless hotspot; and
+		\item The aforementioned smartphones have sent and received data – audio data – between themselves.
+	\end{itemize}
+	% end  itemize experiment establishments
+	
+	The project objectives have been met.
+
+	% end Conclusion
+	% =============
+
+	% begin Recommendations
+	% ======================	
+
+	\section{\textbf{Recommendations}}
+
+	We recommend the following actions for any future interest in this project:
+	
+	% begin enumerate recommendations
+	\begin{enumerate}
+		\item \textbf{Audio Streaming.} This would increase the functionality of the application immensely. It would make the app viable to the market.
+		\item \textbf{Video Streaming.} This would be another great feature to add to the application. With this in place, people would be able to video chat over short distances.
+		\item  \textbf{Audio control.} As mentioned in the Limitations section, we were not able to control audio volume sufficiently. This could be improved.
+		\item \textbf{WiFi Direct.} As mentioned in the Literature Review, this technology has established itself as the next important WiFi technology. We believe that implementing WiFi Direct might solve the choppy audio problem we faced. However, WiFi Direct will mean that we do away with older Android OS versions. This might be a concern Android code in based on Android 2.2 covers almost 100\% of all Android devices. 
+	\end{enumerate}
+	% end enumerate recommendations
+
+	% end Recommendations
+	% ====================
+			
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

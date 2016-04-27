@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}\textbf {Background/Introduction}}{3}
+\contentsline {section}{\numberline {2}\textbf {Problem Statement}}{3}
+\contentsline {section}{\numberline {3}\textbf {Justification}}{3}
+\contentsline {section}{\numberline {4}\textbf {Literature Relevant to your Proposal}}{3}
+\contentsline {section}{\numberline {5}\textbf {Research Methods and Design}}{3}
+\contentsline {section}{\numberline {6}\textbf {Schedule}}{3}
+\contentsline {section}{\numberline {7}\textbf {Budget}}{4}
+\contentsline {section}{\numberline {8}\textbf {Other Information}}{4}
+\contentsline {section}{\numberline {9}Conclusion}{4}

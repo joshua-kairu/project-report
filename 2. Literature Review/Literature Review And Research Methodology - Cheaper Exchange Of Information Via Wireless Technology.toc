@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {} \textbf { Lists of Figures and Tables}}{2}
+\contentsline {section}{\numberline {} \textbf { Definition of Abbreviations}}{3}
+\contentsline {section}{\numberline {1} \textbf { Background/Introduction } }{6}
+\contentsline {section}{\numberline {2} \textbf { Literature Review } }{6}
+\contentsline {subsection}{\numberline {2.1}\textbf {Wireless Technologies}}{6}
+\contentsline {subsection}{\numberline {2.2}\textbf {Peer-To-Peer Technologies}}{16}
+\contentsline {subsection}{\numberline {2.3}\textbf {Audio Encoding Techniques}}{24}
+\contentsline {subsection}{\numberline {2.4}\textbf {Audio File Formats}}{28}
+\contentsline {subsection}{\numberline {2.5}\textbf {GSM}}{34}
+\contentsline {section}{\numberline {3}\textbf { Research Methodology} }{45}
+\contentsline {section}{\numberline {4}\textbf { References } }{53}
