@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {} \textbf { Lists of Figures and Tables}}{7}
+\contentsline {section}{\numberline {} \textbf { Definition of Abbreviations}}{9}
+\contentsline {section}{\numberline {1}\textbf {Introduction } }{12}
+\contentsline {subsection}{\numberline {1.1}Problem Statement}{12}
+\contentsline {subsection}{\numberline {1.2}Justification}{13}
+\contentsline {section}{\numberline {2} \textbf { Literature Review } }{13}
+\contentsline {subsection}{\numberline {2.1}Wireless Technologies}{14}
+\contentsline {subsection}{\numberline {2.2}Peer-To-Peer Technologies}{23}
+\contentsline {subsection}{\numberline {2.3}Audio Encoding Techniques}{31}
+\contentsline {subsection}{\numberline {2.4}Audio File Formats}{35}
+\contentsline {subsection}{\numberline {2.5}GSM}{42}
+\contentsline {section}{\numberline {3}\textbf { Research Methodology} }{52}
+\contentsline {subsection}{\numberline {3.1}Experimentation.}{52}
+\contentsline {subsection}{\numberline {3.2}Web Search.}{58}
+\contentsline {subsection}{\numberline {3.3}Interviews}{59}
+\contentsline {section}{\numberline {4}\textbf {System Analysis} }{60}
+\contentsline {subsection}{\numberline {4.1}Functional requirements}{60}
+\contentsline {subsection}{\numberline {4.2}Non-functional requirements}{60}
+\contentsline {section}{\numberline {5}\textbf {System Design}}{61}
+\contentsline {subsection}{\numberline {5.1}The Network Topology Diagram}{61}
+\contentsline {subsection}{\numberline {5.2}Class Diagrams}{61}
+\contentsline {subsection}{\numberline {5.3}Activity Diagrams}{67}
+\contentsline {subsection}{\numberline {5.4}The Sequence Diagram}{75}
+\contentsline {subsection}{\numberline {5.5}The Navigation Diagram}{78}
+\contentsline {section}{\numberline {6}\textbf {Implementation} }{79}
+\contentsline {subsection}{\numberline {6.1}Device connection}{80}
+\contentsline {subsection}{\numberline {6.2}Varying of distance with time held constant}{80}
+\contentsline {subsection}{\numberline {6.3}Varying of time with distance held constant}{81}
+\contentsline {section}{\numberline {7} Results and Analysis}{81}
+\contentsline {subsection}{\numberline {7.1}Device connection}{81}
+\contentsline {subsection}{\numberline {7.2}Varying of distance with time held constant}{94}
+\contentsline {subsection}{\numberline {7.3}Varying of time with distance held constant}{95}
+\contentsline {subsection}{\numberline {7.4}Limitations}{97}
+\contentsline {section}{\numberline {8}Conclusion and Recommendations/Future Work}{97}
+\contentsline {subsection}{\numberline {8.1}Conclusion}{97}
+\contentsline {subsection}{\numberline {8.2}Recommendations}{98}
+\contentsline {section}{\numberline {9}\textbf { Bibliography } }{99}

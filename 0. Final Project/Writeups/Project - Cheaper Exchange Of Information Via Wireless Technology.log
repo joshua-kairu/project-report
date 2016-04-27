@@ -1,0 +1,2279 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.2.29)  21 APR 2016 15:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Project - Cheaper Exchange Of Information Via Wireless Technology.tex"
+(./Project - Cheaper Exchange Of Information Via Wireless Technology.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\everycr=\toks15
+\minrowclearance=\skip45
+)
+\rownum=\count88
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks19
+)
+(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks22
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks28
+)
+\c@myalg=\count92
+\c@mydef=\count93
+\c@myprop=\count94
+\c@myproof=\count95
+\c@myexample=\count96
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen115
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks30
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks31
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks32
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen124
+\TX@old@table=\dimen125
+\TX@old@col=\dimen126
+\TX@target=\dimen127
+\TX@delta=\dimen128
+\TX@cols=\count109
+\TX@ftn=\toks34
+)
+
+LaTeX Warning: Unused global option(s):
+    [smaller].
+
+(./Project - Cheaper Exchange Of Information Via Wireless Technology.aux)
+\openout1 = `"Project - Cheaper Exchange Of Information Via Wireless Technology
+.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen129
+\scratchbox=\box28
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen130
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks36
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+</run/media/joshua/DATA/ICS_2406_Pictures/Base/REF.png, id=1, 173.448pt x 38.06
+22pt>
+File: /run/media/joshua/DATA/ICS_2406_Pictures/Base/REF.png Graphic file (type 
+png)
+ <use /run/media/joshua/DATA/ICS_2406_Pictures/Base/REF.png>
+Package pdftex.def Info: /run/media/joshua/DATA/ICS_2406_Pictures/Base/REF.png 
+used on input line 40.
+(pdftex.def)             Requested size: 69.37796pt x 15.2246pt.
+
+</run/media/joshua/DATA/ICS_2406_Pictures/Base/JKUAT_Logo.png, id=2, 359.3425pt
+ x 331.2375pt>
+File: /run/media/joshua/DATA/ICS_2406_Pictures/Base/JKUAT_Logo.png Graphic file
+ (type png)
+
+<use /run/media/joshua/DATA/ICS_2406_Pictures/Base/JKUAT_Logo.png>
+Package pdftex.def Info: /run/media/joshua/DATA/ICS_2406_Pictures/Base/JKUAT_Lo
+go.png used on input line 46.
+(pdftex.def)             Requested size: 287.47438pt x 264.99034pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 55.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 75.
+
+(/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (77.70702pt too wide) in paragraph at lines 75--76
+[] 
+ []
+
+
+</run/media/joshua/DATA/ICS_2406_Pictures/Base/KEBS_logo.png, id=3, 546.3612pt 
+x 156.1032pt>
+File: /run/media/joshua/DATA/ICS_2406_Pictures/Base/KEBS_logo.png Graphic file 
+(type png)
+
+<use /run/media/joshua/DATA/ICS_2406_Pictures/Base/KEBS_logo.png>
+Package pdftex.def Info: /run/media/joshua/DATA/ICS_2406_Pictures/Base/KEBS_log
+o.png used on input line 79.
+(pdftex.def)             Requested size: 218.5406pt x 62.44016pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </run/media/joshua/DATA/ICS
+_2406_Pictures/Base/REF.png> </run/media/joshua/DATA/ICS_2406_Pictures/Base/JKU
+AT_Logo.png (PNG copy)>] [2 </run/media/joshua/DATA/ICS_2406_Pictures/Base/KEBS
+_logo.png>] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+ [4
+
+]
+(./Project - Cheaper Exchange Of Information Via Wireless Technology.toc
+[5
+
+])
+\tf@toc=\write3
+\openout3 = `"Project - Cheaper Exchange Of Information Via Wireless Technology
+.toc"'.
+
+ [6]
+(./Project - Cheaper Exchange Of Information Via Wireless Technology.lof
+Overfull \hbox (2.36705pt too wide) in paragraph at lines 17--17
+ [][] []\OT1/cmr/m/n/12 Varying Device-to-Device Dis-tance while Keep-ing Au-di
+o In-put Fixed 
+ []
+
+
+Overfull \hbox (2.36705pt too wide) in paragraph at lines 18--18
+ [][] []\OT1/cmr/m/n/12 Varying Au-dio In-put while Keep-ing Device-to-Device D
+is-tance Fixed 
+ []
+
+
+Overfull \hbox (84.43904pt too wide) in paragraph at lines 20--20
+ [][] []\OT1/cmr/m/n/12 Class Di-a-grams for \OT1/cmtt/m/n/12 HomeActivity\OT1/
+cmr/m/n/12 , \OT1/cmtt/m/n/12 ReceiveCallActivity\OT1/cmr/m/n/12 , \OT1/cmtt/m/
+n/12 IncomingCallActivity\OT1/cmr/m/n/12 , 
+ []
+
+
+Overfull \hbox (47.38902pt too wide) in paragraph at lines 21--21
+ [][] []\OT1/cmr/m/n/12 Class Di-a-grams for \OT1/cmtt/m/n/12 CallingActivity\O
+T1/cmr/m/n/12 , \OT1/cmtt/m/n/12 Contact\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 Sear
+chForContactsThread\OT1/cmr/m/n/12 , 
+ []
+
+
+Overfull \hbox (20.64433pt too wide) in paragraph at lines 21--21
+ \OT1/cmtt/m/n/12 WifiStateChangeBroadcastReceiver\OT1/cmr/m/n/12 , \OT1/cmtt/m
+/n/12 SendRecordedSoundTimerTask 
+ []
+
+
+Overfull \hbox (33.00073pt too wide) in paragraph at lines 23--23
+ [][] []\OT1/cmr/m/n/12 Activity Di-a-gram for \OT1/cmtt/m/n/12 HomeActivity \O
+T1/cmr/m/n/12 on the left and \OT1/cmtt/m/n/12 ReceiveCallActivity 
+ []
+
+
+Overfull \hbox (94.75076pt too wide) in paragraph at lines 24--24
+ [][] []\OT1/cmr/m/n/12 Activity Di-a-gram for \OT1/cmtt/m/n/12 IncomingCallAct
+ivity \OT1/cmr/m/n/12 on the left and \OT1/cmtt/m/n/12 CallInSessionActivity 
+ []
+
+
+Overfull \hbox (33.00073pt too wide) in paragraph at lines 25--25
+ [][] []\OT1/cmr/m/n/12 Activity Di-a-gram for \OT1/cmtt/m/n/12 MakeCallActivit
+y \OT1/cmr/m/n/12 on the left and \OT1/cmtt/m/n/12 CallingActivity 
+ []
+
+[7
+
+])
+\tf@lof=\write4
+\openout4 = `"Project - Cheaper Exchange Of Information Via Wireless Technology
+.lof"'.
+
+ (./Project - Cheaper Exchange Of Information Via Wireless Technology.lot)
+\tf@lot=\write5
+\openout5 = `"Project - Cheaper Exchange Of Information Via Wireless Technology
+.lot"'.
+
+
+[8] [9
+
+] [10] [11] [12
+
+] [13] [14]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F1_NFC_Communication_Procedures".png, id=58, 409.53pt x 272.01625pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F1_NFC_Communication_Procedures".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F1_NFC_Communication_Procedures".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F1_NFC_Communication_Procedures".png used on in
+put line 324.
+(pdftex.def)             Requested size: 292.77629pt x 194.47768pt.
+ [15 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F1_NFC_Communication_Procedures.png (PNG copy)>] [16]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F2_Bluetooth_Protocol_Stack".png, id=67, 638.385pt x 323.2075pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F2_Bluetooth_Protocol_Stack".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F2_Bluetooth_Protocol_Stack".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F2_Bluetooth_Protocol_Stack".png used on input 
+line 372.
+(pdftex.def)             Requested size: 292.77629pt x 148.22845pt.
+ [17] [18 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F2_Bluetooth_Protocol_Stack.png (PNG copy)>] [19] [20] [21]
+Overfull \hbox (0.23781pt too wide) in paragraph at lines 428--429
+[]\OT1/cmr/m/n/12 To re-duce the lim-i-ta-tions im-posed by half du-plex com-mu
+-ni-ca-tion, the 802.11n
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F3_A_Simple_WiFi_Deployment".png, id=84, 605.26125pt x 342.27875pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F3_A_Simple_WiFi_Deployment".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F3_A_Simple_WiFi_Deployment".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F3_A_Simple_WiFi_Deployment".png used on input 
+line 447.
+(pdftex.def)             Requested size: 292.77629pt x 165.56627pt.
+ [22] [23 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F3_A_Simple_WiFi_Deployment.png (PNG copy)>] [24] [25]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F4_SMPP_Message_Flow".png, id=98, 489.83pt x 508.90125pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F4_SMPP_Message_Flow".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F4_SMPP_Message_Flow".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F4_SMPP_Message_Flow".png used on input line 61
+5.
+(pdftex.def)             Requested size: 250.95476pt x 260.72427pt.
+ [26] [27 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F4_SMPP_Message_Flow.png (PNG copy)>] [28]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F5_A_P2P_Deployment".png, id=109, 724.7075pt x 274.02374pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F5_A_P2P_Deployment".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F5_A_P2P_Deployment".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F5_A_P2P_Deployment".png used on input line 657
+.
+(pdftex.def)             Requested size: 292.77629pt x 110.70303pt.
+ [29 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F5_A_P2P_Deployment.png (PNG copy)>]
+Overfull \hbox (5.04337pt too wide) in paragraph at lines 668--669
+[]\OT1/cmr/m/n/12 Just as tra-di-tional APs use the Dy-namic Host Con-fig-u-ra-
+tion Pro-to-col (DHCP)
+ []
+
+[30] [31]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F6_The_Encoding_Decoding_Process".png, id=120, 586.19pt x 619.31375pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F6_The_Encoding_Decoding_Process".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F6_The_Encoding_Decoding_Process".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F6_The_Encoding_Decoding_Process".png used on i
+nput line 738.
+(pdftex.def)             Requested size: 250.95476pt x 265.12793pt.
+
+Overfull \hbox (3.46274pt too wide) in paragraph at lines 770--771
+[]\OT1/cmr/m/n/12 It is sup-ported by ac-tive stan-dards bod-ies such as the Eu
+-ro-pean Telecom-
+ []
+
+[32] [33 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearc
+hMethodology/LR_F6_The_Encoding_Decoding_Process.png (PNG copy)>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F7_A_Sketch_Graph_of_the_Pass_band_Characteristics_of_AMR_Technologies"
+.png, id=127, 533.995pt x 248.93pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F7_A_Sketch_Graph_of_the_Pass_band_Characteristics_of_AMR_Technolo
+gies".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F7_A_Sketch_Graph_of_the_Pass_band_Characteristics_of_AMR_Technolog
+ies".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F7_A_Sketch_Graph_of_the_Pass_band_Characterist
+ics_of_AMR_Technologies".png used on input line 809.
+(pdftex.def)             Requested size: 292.77629pt x 136.4865pt.
+ [34 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F7_A_Sketch_Graph_of_the_Pass_band_Characteristics_of_AMR_Technolog
+ies.png (PNG copy)>] [35]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F8_A_Simple_Perceptual_Encoding_System".png, id=134, 751.80875pt x 162.
+6075pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F8_A_Simple_Perceptual_Encoding_System".png Graphic file (type png
+)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F8_A_Simple_Perceptual_Encoding_System".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F8_A_Simple_Perceptual_Encoding_System".png use
+d on input line 864.
+(pdftex.def)             Requested size: 292.77629pt x 63.32486pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F9_A_Simple_Perceptual_Decoding_System".png, id=135, 750.805pt x 74.277
+5pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F9_A_Simple_Perceptual_Decoding_System".png Graphic file (type png
+)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F9_A_Simple_Perceptual_Decoding_System".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F9_A_Simple_Perceptual_Decoding_System".png use
+d on input line 873.
+(pdftex.def)             Requested size: 292.77629pt x 28.9647pt.
+ [36 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F8_A_Simple_Perceptual_Encoding_System.png (PNG copy)> </run/media/
+joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodology/LR_F9_A_
+Simple_Perceptual_Decoding_System.png (PNG copy)>]
+Overfull \hbox (3.22153pt too wide) in paragraph at lines 910--911
+\OT1/cmr/bx/n/12 polyphase fil-ter bank \OT1/cmr/m/n/12 and then a \OT1/cmr/bx/
+n/12 Mod-i-fied Dis-crete Co-sine Trans-
+ []
+
+[37] [38] [39]
+Overfull \hbox (17.46448pt too wide) in paragraph at lines 991--992
+[]\OT1/cmr/m/n/12 The in-versely quan-tized, de-coded bit-stream is passed thro
+ugh the \OT1/cmr/bx/n/12 IMDCT\OT1/cmr/m/n/12 . 
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F10_A_Simplified_Structure_of_an_AAC_Encoder".png, id=149, 751.80875pt 
+x 162.6075pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F10_A_Simplified_Structure_of_an_AAC_Encoder".png Graphic file (ty
+pe png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F10_A_Simplified_Structure_of_an_AAC_Encoder".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F10_A_Simplified_Structure_of_an_AAC_Encoder".p
+ng used on input line 1001.
+(pdftex.def)             Requested size: 292.77629pt x 63.32486pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F11_A_Simplified_Structure_of_an_AAC_Decoder".png, id=150, 750.805pt x 
+74.2775pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F11_A_Simplified_Structure_of_an_AAC_Decoder".png Graphic file (ty
+pe png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F11_A_Simplified_Structure_of_an_AAC_Decoder".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F11_A_Simplified_Structure_of_an_AAC_Decoder".p
+ng used on input line 1010.
+(pdftex.def)             Requested size: 292.77629pt x 28.9647pt.
+ [40 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F10_A_Simplified_Structure_of_an_AAC_Encoder.png (PNG copy)> </run/
+media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodology/LR
+_F11_A_Simplified_Structure_of_an_AAC_Decoder.png (PNG copy)>] [41]
+Overfull \hbox (3.2058pt too wide) in paragraph at lines 1114--1115
+[]\OT1/cmr/m/n/12 The GSM net-work is di-vided into three ma-jor sys-tems (IEC,
+ 1999). These are: 
+ []
+
+[42] [43] [44]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F12_GSM_Network_Elements".png, id=167, 543.02875pt x 620.3175pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F12_GSM_Network_Elements".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F12_GSM_Network_Elements".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F12_GSM_Network_Elements".png used on input lin
+e 1188.
+(pdftex.def)             Requested size: 209.12683pt x 238.89397pt.
+ [45 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F12_GSM_Network_Elements.png (PNG copy)>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F13_GSM_Cells".png, id=171, 481.8pt x 514.92375pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F13_GSM_Cells".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F13_GSM_Cells".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F13_GSM_Cells".png used on input line 1242.
+(pdftex.def)             Requested size: 250.95476pt x 268.20189pt.
+ [46] [47 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F13_GSM_Cells.png (PNG copy)>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F14_Android_4-1-2_Wi-Fi_Hotspot_Security_Options".png, id=178, 321.2pt 
+x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F14_Android_4-1-2_Wi-Fi_Hotspot_Security_Options".png Graphic file
+ (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F14_Android_4-1-2_Wi-Fi_Hotspot_Security_Options".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F14_Android_4-1-2_Wi-Fi_Hotspot_Security_Option
+s".png used on input line 1301.
+(pdftex.def)             Requested size: 167.2989pt x 250.95648pt.
+ [48]
+[49 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMeth
+odology/LR_F14_Android_4-1-2_Wi-Fi_Hotspot_Security_Options.png (PNG copy)>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F15_Android_4-1-2_Wi-Fi_Power_Draw_Warning".png, id=186, 322.20375pt x 
+488.82625pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F15_Android_4-1-2_Wi-Fi_Power_Draw_Warning".png Graphic file (type
+ png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F15_Android_4-1-2_Wi-Fi_Power_Draw_Warning".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F15_Android_4-1-2_Wi-Fi_Power_Draw_Warning".png
+ used on input line 1360.
+(pdftex.def)             Requested size: 209.12683pt x 317.28575pt.
+ [50 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F15_Android_4-1-2_Wi-Fi_Power_Draw_Warning.png (PNG copy)>] [51]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1434
+.
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F16_Establishment_of_Communication_Between_Two_Android_Devices".png, id
+=194, 238.8925pt x 125.46875pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F16_Establishment_of_Communication_Between_Two_Android_Devices".pn
+g Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F16_Establishment_of_Communication_Between_Two_Android_Devices".png
+>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F16_Establishment_of_Communication_Between_Two_
+Android_Devices".png used on input line 1443.
+(pdftex.def)             Requested size: 250.95476pt x 131.8035pt.
+ [52] [53 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F16_Establishment_of_Communication_Between_Two_Android_Devices
+.png (PNG copy)>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F17_Varying_Device-to-Device_Distance".png, id=202, 646.415pt x 540.017
+5pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F17_Varying_Device-to-Device_Distance".png Graphic file (type png)
+
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F17_Varying_Device-to-Device_Distance".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F17_Varying_Device-to-Device_Distance".png used
+ on input line 1502.
+(pdftex.def)             Requested size: 250.95476pt x 209.65013pt.
+ [54 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F17_Varying_Device-to-Device_Distance.png (PNG copy)>] [55]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMethodo
+logy/LR_F18_Varying_Audio_Input".png, id=210, 593.21625pt x 530.98375pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMe
+thodology/LR_F18_Varying_Audio_Input".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResearchMet
+hodology/LR_F18_Varying_Audio_Input".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/01Literature
+ReviewAndResearchMethodology/LR_F18_Varying_Audio_Input".png used on input line
+ 1575.
+(pdftex.def)             Requested size: 250.95476pt x 224.63208pt.
+ [56] [57 </run/media/joshua/DATA/ICS_2406_Pictures/01LiteratureReviewAndResear
+chMethodology/LR_F18_Varying_Audio_Input.png (PNG copy)>] [58] [59] [60
+
+]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Network_To
+pology_Diagram".png, id=226, 402.00188pt x 424.58624pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Netwo
+rk_Topology_Diagram".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Networ
+k_Topology_Diagram".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Network_Topology_Diagram".png used on input line 1812.
+(pdftex.def)             Requested size: 209.12683pt x 220.87033pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diag
+ram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity".png, id=227, 597
+.73312pt x 845.40843pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity".png Graphic
+ file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_
+Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCallAc
+tivity".png used on input line 1841.
+(pdftex.def)             Requested size: 292.77629pt x 414.09895pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diag
+ram_-_CallInSessionActivity,_MakeCallActivity".png, id=228, 557.08125pt x 769.3
+7437pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_CallInSessionActivity,_MakeCallActivity".png Graphic file (type png)
+
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_
+Diagram_-_CallInSessionActivity,_MakeCallActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Class_Diagram_-_CallInSessionActivity,_MakeCallActivity".png used
+ on input line 1841.
+(pdftex.def)             Requested size: 292.77629pt x 404.35022pt.
+
+Underfull \hbox (badness 6658) in paragraph at lines 1842--1842
+[]\OT1/cmr/m/n/12 Figure 20: Class Di-a-grams for \OT1/cmtt/m/n/12 HomeActivity
+\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 ReceiveCallActivity\OT1/cmr/m/n/12 ,
+ []
+
+[61]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diag
+ram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadca
+stReceiver".png, id=233, 563.10374pt x 685.05937pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBr
+oadcastReceiver".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_
+Diagram_-_CallingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBro
+adcastReceiver".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Class_Diagram_-_CallingActivity,_Contact,_SearchForContactsThread
+,_WifiStateChangeBroadcastReceiver".png used on input line 1880.
+(pdftex.def)             Requested size: 292.77629pt x 356.18065pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diag
+ram_-_SendRecordedSoundTimerTask,_SocketServerThread".png, id=234, 557.08125pt 
+x 298.11375pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread".png Graphic file (ty
+pe png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_
+Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Class_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread".p
+ng used on input line 1880.
+(pdftex.def)             Requested size: 292.77629pt x 156.67581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
+[]\OT1/cmr/m/n/12 Figure 21: Class Di-a-grams for \OT1/cmtt/m/n/12 CallingActiv
+ity\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 Contact\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
+\OT1/cmtt/m/n/12 SearchForContactsThread\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 Wifi
+StateChangeBroadcastReceiver\OT1/cmr/m/n/12 ,
+ []
+
+[62 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Network
+_Topology_Diagram.png>] [63 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemA
+nalysisAndDesign/Class_Diagram_-_HomeActivity,_ReceiveCallActivity,_IncomingCal
+lActivity.png> </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDes
+ign/Class_Diagram_-_CallInSessionActivity,_MakeCallActivity.png>] [64 </run/med
+ia/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diagram_-_Call
+ingActivity,_Contact,_SearchForContactsThread,_WifiStateChangeBroadcastReceiver
+.png> </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_SendRecordedSoundTimerTask,_SocketServerThread.png>]
+Overfull \hbox (22.18147pt too wide) in paragraph at lines 1900--1901
+[]\OT1/cmtt/m/n/12 SendRecordedSoundTimerTask \OT1/cmr/bx/n/12 class\OT1/cmr/m/
+n/12 . This class ex-tends the An-droid \OT1/cmtt/m/n/12 TimerTask
+ []
+
+
+Overfull \hbox (7.04454pt too wide) in paragraph at lines 1904--1905
+[]\OT1/cmtt/m/n/12 SocketServerThread \OT1/cmr/bx/n/12 class\OT1/cmr/m/n/12 . L
+ike the \OT1/cmtt/m/n/12 SearchForContactsThread \OT1/cmr/m/n/12 class above,
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_Diag
+ram_-_Elided".png, id=249, 1195.46625pt x 641.39626pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class
+_Diagram_-_Elided".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Class_
+Diagram_-_Elided".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Class_Diagram_-_Elided".png used on input line 1916.
+(pdftex.def)             Requested size: 598.09969pt x 320.89307pt.
+ [65] [66 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/C
+lass_Diagram_-_Elided.png>]
+Overfull \hbox (35.59062pt too wide) in paragraph at lines 1924--1925
+[]\OT1/cmr/m/n/12 The filled di-a-mond on the line con-nect-ing \OT1/cmtt/m/n/1
+2 ReceiveCallActivity \OT1/cmr/m/n/12 to \OT1/cmtt/m/n/12 SocketServerThread
+ []
+
+
+Overfull \hbox (1.2875pt too wide) in paragraph at lines 1924--1925
+\OT1/cmr/m/n/12 the \OT1/cmtt/m/n/12 SocketServerThread \OT1/cmr/m/n/12 in-stan
+ce can-not ex-ist with-out the \OT1/cmtt/m/n/12 ReceiveCallActivity
+ []
+
+
+Overfull \hbox (34.33105pt too wide) in paragraph at lines 1928--1929
+\OT1/cmr/m/n/12 many \OT1/cmtt/m/n/12 Contact \OT1/cmr/m/n/12 ob-jects as pos-s
+i-ble. \OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 uses a \OT1/cmtt/m/n/1
+2 SearchForContactsThread
+ []
+
+
+Overfull \hbox (60.25137pt too wide) in paragraph at lines 1928--1929
+\OT1/cmr/m/n/12 ob-ject to search for con-tacts and dis-play them. It uses a \O
+T1/cmtt/m/n/12 WifiStateChangeBroadcastReceiver
+ []
+
+
+Overfull \hbox (72.68805pt too wide) in paragraph at lines 1930--1931
+[]\OT1/cmr/m/n/12 Just like \OT1/cmtt/m/n/12 IncomingCallActivity\OT1/cmr/m/n/1
+2 , \OT1/cmtt/m/n/12 CallingActivity \OT1/cmr/m/n/12 can start only one \OT1/cm
+tt/m/n/12 CallInSessionActivity
+ []
+
+
+Overfull \hbox (6.37389pt too wide) in paragraph at lines 1932--1933
+\OT1/cmr/m/n/12 Each of those last two men-tioned classes can start only one \O
+T1/cmtt/m/n/12 CallInSessionActivity
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_HomeActivity".png, id=257, 513.41812pt x 674.52pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_HomeActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_HomeActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_HomeActivity".png used on input line 1951.
+(pdftex.def)             Requested size: 209.12683pt x 274.74355pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_RecieveCallActivity".png, id=258, 404.26031pt x 837.88031pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_RecieveCallActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_RecieveCallActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_RecieveCallActivity".png used on input line 19
+55.
+(pdftex.def)             Requested size: 209.12683pt x 433.4501pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1957--1957
+[]\OT1/cmr/m/n/12 Figure 23: Ac-tiv-ity Di-a-gram for \OT1/cmtt/m/n/12 HomeActi
+vity \OT1/cmr/m/n/12 on the left and
+ []
+
+[67] [68 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Ac
+tivity_Diagram_-_HomeActivity.png> </run/media/joshua/DATA/ICS_2406_Pictures/02
+SystemAnalysisAndDesign/Activity_Diagram_-_RecieveCallActivity.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_IncomingCallActivity".png, id=268, 420.06938pt x 745.28438pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_IncomingCallActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_IncomingCallActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_IncomingCallActivity".png used on input line 1
+981.
+(pdftex.def)             Requested size: 209.12683pt x 371.02643pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_CallInSessionActivity".png, id=269, 520.94624pt x 791.95876pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_CallInSessionActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_CallInSessionActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_CallInSessionActivity".png used on input line 
+1985.
+(pdftex.def)             Requested size: 209.12683pt x 317.91382pt.
+
+Underfull \hbox (badness 1270) in paragraph at lines 1987--1987
+[]\OT1/cmr/m/n/12 Figure 24: Ac-tiv-ity Di-a-gram for \OT1/cmtt/m/n/12 Incoming
+CallActivity \OT1/cmr/m/n/12 on the left and
+ []
+
+
+Overfull \hbox (24.43428pt too wide) in paragraph at lines 1994--1995
+\OT1/cmr/m/n/12 ac-tiv-ity then ter-mi-nates. If the user se-lects \Re-ject" th
+en \OT1/cmtt/m/n/12 IncomingCallActivity
+ []
+
+
+Overfull \hbox (43.18277pt too wide) in paragraph at lines 2000--2001
+\OT1/cmr/m/n/12 started by ei-ther \OT1/cmtt/m/n/12 CallingActivity \OT1/cmr/m/
+n/12 (from the caller's side) or \OT1/cmtt/m/n/12 IncomingCallActivity
+ []
+
+[69] [70 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Ac
+tivity_Diagram_-_IncomingCallActivity.png> </run/media/joshua/DATA/ICS_2406_Pic
+tures/02SystemAnalysisAndDesign/Activity_Diagram_-_CallInSessionActivity.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_MakeCallActivity".png, id=278, 517.18219pt x 1097.60063pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_MakeCallActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_MakeCallActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_MakeCallActivity".png used on input line 2009.
+
+(pdftex.def)             Requested size: 209.12683pt x 443.8224pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_CallingActivity".png, id=279, 581.92406pt x 838.63312pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_CallingActivity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_CallingActivity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_CallingActivity".png used on input line 2013.
+(pdftex.def)             Requested size: 209.12683pt x 301.37024pt.
+
+Underfull \hbox (badness 4647) in paragraph at lines 2015--2015
+[]\OT1/cmr/m/n/12 Figure 25: Ac-tiv-ity Di-a-gram for \OT1/cmtt/m/n/12 MakeCall
+Activity \OT1/cmr/m/n/12 on the left and
+ []
+
+[71] [72 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Ac
+tivity_Diagram_-_MakeCallActivity.png> </run/media/joshua/DATA/ICS_2406_Picture
+s/02SystemAnalysisAndDesign/Activity_Diagram_-_CallingActivity.png>]
+Overfull \hbox (77.93306pt too wide) in paragraph at lines 2030--2032
+[]\OT1/cmtt/m/n/12 SearchForContactsThread \OT1/cmr/bx/n/12 class. \OT1/cmr/m/n
+/12 The ac-tiv-ity di-a-gram for the \OT1/cmtt/m/n/12 SearchForContactsThread
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_SearchForContactsThread".png, id=288, 361.35pt x 423.08063pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_SearchForContactsThread".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_SearchForContactsThread".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_SearchForContactsThread".png used on input lin
+e 2038.
+(pdftex.def)             Requested size: 209.12683pt x 244.8511pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_WifiStateChangeBroadcastReceiver".png, id=289, 370.38374pt x 368.1253p
+t>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_WifiStateChangeBroadcastReceiver".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_WifiStateChangeBroadcastReceiver".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_WifiStateChangeBroadcastReceiver".png used on 
+input line 2042.
+(pdftex.def)             Requested size: 209.12683pt x 207.85075pt.
+ [73 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_SearchForContactsThread.png> </run/media/joshua/DATA/ICS_2406_Pict
+ures/02SystemAnalysisAndDesign/Activity_Diagram_-_WifiStateChangeBroadcastRecei
+ver.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_SendRecordedSoundTimerTask".png, id=296, 571.38469pt x 878.53218pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_SendRecordedSoundTimerTask".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_SendRecordedSoundTimerTask".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_SendRecordedSoundTimerTask".png used on input 
+line 2066.
+(pdftex.def)             Requested size: 209.12683pt x 321.53963pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activity_D
+iagram_-_SocketServerThread".png, id=297, 526.21594pt x 704.6325pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activ
+ity_Diagram_-_SocketServerThread".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_SocketServerThread".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Activity_Diagram_-_SocketServerThread".png used on input line 207
+0.
+(pdftex.def)             Requested size: 209.12683pt x 280.03096pt.
+ [74 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Activi
+ty_Diagram_-_SendRecordedSoundTimerTask.png> </run/media/joshua/DATA/ICS_2406_P
+ictures/02SystemAnalysisAndDesign/Activity_Diagram_-_SocketServerThread.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequence_D
+iagram".png, id=303, 845.40843pt x 597.73312pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Seque
+nce_Diagram".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequen
+ce_Diagram".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Sequence_Diagram".png used on input line 2095.
+(pdftex.def)             Requested size: 585.55258pt x 414.01418pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequence_D
+iagram_Legend".png, id=304, 493.845pt x 213.04594pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Seque
+nce_Diagram_Legend".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Sequen
+ce_Diagram_Legend".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Sequence_Diagram_Legend".png used on input line 2103.
+(pdftex.def)             Requested size: 250.95476pt x 108.26189pt.
+
+Overfull \hbox (15.83588pt too wide) in paragraph at lines 2116--2117
+\OT1/cmr/m/n/12 The se-quence di-a-gram shows that two ex-tras are passed to th
+e \OT1/cmtt/m/n/12 CallingActivity
+ []
+
+
+Overfull \hbox (14.05098pt too wide) in paragraph at lines 2117--2118
+\OT1/cmr/m/n/12 ceived the name of the called. As the di-a-gram shows, the \OT1
+/cmtt/m/n/12 ReceiveCallActivity
+ []
+
+
+Overfull \hbox (34.75688pt too wide) in paragraph at lines 2117--2118
+\OT1/cmr/m/n/12 in-stance starts an \OT1/cmtt/m/n/12 IncomingCallActivity \OT1/
+cmr/m/n/12 ac-tiv-ity as soon as it sends the\OFFER".
+ []
+
+
+Overfull \hbox (34.14566pt too wide) in paragraph at lines 2117--2118
+\OT1/cmr/m/n/12 tiv-ity a \PICKED UP" in re-sponse to the \CALL-ING YOU", the \
+OT1/cmtt/m/n/12 CallingActivity
+ []
+
+
+Overfull \hbox (41.56453pt too wide) in paragraph at lines 2117--2118
+\OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 ac-tiv-ity, the par-ent ac-ti
+v-ity in this case is the \OT1/cmtt/m/n/12 MakeCallActivity\OT1/cmr/m/n/12 .
+ []
+
+[75] [76 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Se
+quence_Diagram.png> </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisA
+ndDesign/Sequence_Diagram_Legend.png>]
+Overfull \hbox (5.97385pt too wide) in paragraph at lines 2119--2120
+\OT1/cmr/m/n/12 UP" the \OT1/cmtt/m/n/12 IncomingCallActivity \OT1/cmr/m/n/12 i
+n-stance starts the \OT1/cmtt/m/n/12 CallInSessionActivity
+ []
+
+
+Overfull \hbox (14.2426pt too wide) in paragraph at lines 2119--2120
+\OT1/cmtt/m/n/12 ReceiveCallActivity\OT1/cmr/m/n/12 . Af-ter pass-ing these ex-
+tras, the \OT1/cmtt/m/n/12 IncomingCallActivity
+ []
+
+[77]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Navigation
+_Diagram".png, id=316, 844.65562pt x 700.11563pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Navig
+ation_Diagram".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Naviga
+tion_Diagram".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnal
+ysisAndDesign/Navigation_Diagram".png used on input line 2131.
+(pdftex.def)             Requested size: 418.25368pt x 346.69185pt.
+ [78 </run/media/joshua/DATA/ICS_2406_Pictures/02SystemAnalysisAndDesign/Naviga
+tion_Diagram.png>] [79]
+Overfull \hbox (6.4075pt too wide) in paragraph at lines 2177--2178
+[]\OT1/cmr/m/n/12 We will use these ex-per-i-ments to guide us through this im-
+ple-men-ta-tion sec-tion. 
+ []
+
+[80] [81] [82]
+Overfull \hbox (1.64653pt too wide) in paragraph at lines 2316--2316
+[]\OT1/cmtt/m/n/12 receiveCallButton = ( Button )findViewById( R.id.h_b_receive
+_call );[] 
+ []
+
+
+Overfull \hbox (1.64653pt too wide) in paragraph at lines 2333--2333
+[]\OT1/cmtt/m/n/12 Intent i = new Intent(HomeActivity.this, ReceiveCallActivity
+.class);[] 
+ []
+
+[83]
+Overfull \hbox (118.97159pt too wide) in paragraph at lines 2356--2356
+[]\OT1/cmtt/m/n/12 final WifiManager wifiManager = (WifiManager) getSystemServi
+ce( Context.WIFI_SERVICE );[] 
+ []
+
+
+Overfull \hbox (106.62158pt too wide) in paragraph at lines 2365--2365
+[]\OT1/cmtt/m/n/12 Method startScanActiveMethod = wifiManager.getClass().getMet
+hod( "startScanActive" );[] 
+ []
+
+[84]
+Overfull \hbox (118.97159pt too wide) in paragraph at lines 2392--2392
+[]\OT1/cmtt/m/n/12 newContact.setRangeStatus( WifiManager.calculateSignalLevel(
+currentResult.level, 5 ) );[] 
+ []
+
+
+Overfull \hbox (260.99666pt too wide) in paragraph at lines 2406--2406
+[]\OT1/cmtt/m/n/12 ContactsArrayAdapter contactsArrayAdapter = new ContactsArra
+yAdapter( this, gottenContacts, getCallerName() );[] 
+ []
+
+[85]
+Overfull \hbox (125.14659pt too wide) in paragraph at lines 2425--2425
+[]\OT1/cmtt/m/n/12 // 3d. when a DISCOVER is received, get the caller's name im
+mediately after the DISCOVER[] 
+ []
+
+
+Overfull \hbox (44.87155pt too wide) in paragraph at lines 2430--2430
+[]\OT1/cmtt/m/n/12 String incomingCallerName = ( String ) localObjectInputStrea
+m.readObject();[] 
+ []
+
+[86]
+Overfull \hbox (273.34666pt too wide) in paragraph at lines 2470--2470
+[]\OT1/cmtt/m/n/12 try { recordedBytesAsList = Arrays.asList( HomeActivity.getB
+yteArrayFromFile( myInternalSendingRecordFile ) ); }[] 
+ []
+
+
+Overfull \hbox (341.2717pt too wide) in paragraph at lines 2473--2473
+[]\OT1/cmtt/m/n/12 catch ( IOException e ) { e.printStackTrace(); HomeActivity.
+logError( SendRecordedSoundTimerTask.class, e.getMessage() ); }[] 
+ []
+
+[87]
+Overfull \hbox (199.24663pt too wide) in paragraph at lines 2506--2506
+[]\OT1/cmtt/m/n/12 // maybe the assignment here puts the array from the client 
+in the first slot of the byte array list[] 
+ []
+
+
+Overfull \hbox (125.14659pt too wide) in paragraph at lines 2507--2507
+[]\OT1/cmtt/m/n/12 List< Object > byteArrayAsList = ( List< Object > ) localObj
+ectInputStream.readObject();[] 
+ []
+
+
+Overfull \hbox (761.1719pt too wide) in paragraph at lines 2513--2513
+[]\OT1/cmtt/m/n/12 if( myInternalReceivingRecordFile == null ) { myInternalRece
+ivingRecordFile = new File( getApplicationContext().getDir( "RecordedSoundFiles
+", Context.MODE_PRIVATE ), "receivedRecord.3gp" ); }[] 
+ []
+
+
+Overfull \hbox (51.04655pt too wide) in paragraph at lines 2515--2515
+[]\OT1/cmtt/m/n/12 HomeActivity.writeByteArrayToFile(myInternalReceivingRecordF
+ile, byteArray);[] 
+ []
+
+
+Overfull \hbox (118.97159pt too wide) in paragraph at lines 2519--2519
+[]\OT1/cmtt/m/n/12 FileInputStream fileInputStream = new FileInputStream( myInt
+ernalReceivingRecordFile );[] 
+ []
+
+
+Overfull \hbox (433.89674pt too wide) in paragraph at lines 2521--2521
+[]\OT1/cmtt/m/n/12 HomeActivity.logError( CallInSessionActivity.class, "myInter
+nalReceivingRecordFile.length(): " + myInternalReceivingRecordFile.length() );[
+] 
+ []
+
+
+Overfull \hbox (217.77164pt too wide) in paragraph at lines 2525--2525
+[]\OT1/cmtt/m/n/12 HomeActivity.logError(CallInSessionActivity.class, "after st
+artPlayingSound(fileInputStream.getFD())");[] 
+ []
+
+[88] [89]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Home_Ac
+tivity".png, id=357, 321.2pt x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Ho
+me_Activity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Hom
+e_Activity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_Home_Activity".png used on input line 2549.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Home_Ac
+tivity".png, id=358, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ho
+me_Activity".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Hom
+e_Activity".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_Home_Activity".png used on input line 2555.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Receive
+CallActivity_Waiting_for_a_Call".png, id=359, 321.2pt x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Re
+ceiveCallActivity_Waiting_for_a_Call".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Rec
+eiveCallActivity_Waiting_for_a_Call".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_ReceiveCallActivity_Waiting_for_a_Call".png used on input line
+ 2565.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2566--2566
+[]\OT1/cmr/m/n/12 Figure 33: Server Side -
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 2566--2566
+\OT1/cmtt/m/n/12 ReceiveCallActivity \OT1/cmr/m/n/12 - Wait-ing for
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_No_Contacts".png, id=360, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_No_Contacts".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_No_Contacts".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_No_Contacts".png used on input line 2571.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2572
+[]\OT1/cmr/m/n/12 Figure 34: Client Side -
+ []
+
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Re
+ceiveCallActivity_Waiting_for_a_Call".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Rec
+eiveCallActivity_Waiting_for_a_Call".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_ReceiveCallActivity_Waiting_for_a_Call".png used on input line
+ 2581.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2582--2582
+[]\OT1/cmr/m/n/12 Figure 35: Server Side -
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 2582--2582
+\OT1/cmtt/m/n/12 ReceiveCallActivity \OT1/cmr/m/n/12 - Wait-ing for
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_Displaying_Available_Contacts".png, id=361, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_Displaying_Available_Contacts".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_Displaying_Available_Contacts".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_Displaying_Available_Contacts".png used on in
+put line 2587.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2588--2588
+[]\OT1/cmr/m/n/12 Figure 36: Client Side -
+ []
+
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Re
+ceiveCallActivity_Waiting_for_a_Call".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Rec
+eiveCallActivity_Waiting_for_a_Call".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_ReceiveCallActivity_Waiting_for_a_Call".png used on input line
+ 2597.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2598--2598
+[]\OT1/cmr/m/n/12 Figure 37: Server Side -
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 2598--2598
+\OT1/cmtt/m/n/12 ReceiveCallActivity \OT1/cmr/m/n/12 - Wait-ing for
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_AndroidAP_Selected".png, id=362, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_AndroidAP_Selected".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_AndroidAP_Selected".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_AndroidAP_Selected".png used on input line 26
+03.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2604--2604
+[]\OT1/cmr/m/n/12 Figure 38: Client Side -
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 2604--2604
+\OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 - An-droidAP Se-
+ []
+
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Re
+ceiveCallActivity_Waiting_for_a_Call".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Rec
+eiveCallActivity_Waiting_for_a_Call".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_ReceiveCallActivity_Waiting_for_a_Call".png used on input line
+ 2613.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2614--2614
+[]\OT1/cmr/m/n/12 Figure 39: Server Side -
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 2614--2614
+\OT1/cmtt/m/n/12 ReceiveCallActivity \OT1/cmr/m/n/12 - Wait-ing for
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_Connecting_to_AndroidAP".png, id=363, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_Connecting_to_AndroidAP".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_Connecting_to_AndroidAP".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_Connecting_to_AndroidAP".png used on input li
+ne 2619.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2620--2620
+[]\OT1/cmr/m/n/12 Figure 40: Client Side -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2620--2620
+\OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 - Con-nect-ing to
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Incomin
+gCallActivity_Being_Called_by_Source_of_Net".png, id=364, 321.2pt x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_In
+comingCallActivity_Being_Called_by_Source_of_Net".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Inc
+omingCallActivity_Being_Called_by_Source_of_Net".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_IncomingCallActivity_Being_Called_by_Source_of_Net".png used o
+n input line 2629.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2630--2630
+[]\OT1/cmr/m/n/12 Figure 41: Server Side -
+ []
+
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_Connecting_to_AndroidAP".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_Connecting_to_AndroidAP".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_Connecting_to_AndroidAP".png used on input li
+ne 2635.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2636--2636
+[]\OT1/cmr/m/n/12 Figure 42: Client Side -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2636--2636
+\OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 - Con-nect-ing to
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_CallInS
+essionActivity_Call_Ongoing".png, id=365, 321.2pt x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Ca
+llInSessionActivity_Call_Ongoing".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Cal
+lInSessionActivity_Call_Ongoing".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_CallInSessionActivity_Call_Ongoing".png used on input line 264
+5.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2646--2646
+[]\OT1/cmr/m/n/12 Figure 43: Server Side -
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_CallInS
+essionActivity_Call_Ongoing".png, id=366, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ca
+llInSessionActivity_Call_Ongoing".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Cal
+lInSessionActivity_Call_Ongoing".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_CallInSessionActivity_Call_Ongoing".png used on input line 265
+1.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2652--2652
+[]\OT1/cmr/m/n/12 Figure 44: Client Side -
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Receive
+CallActivity_After_the_Call_is_Over".png, id=367, 321.2pt x 481.8pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Re
+ceiveCallActivity_After_the_Call_is_Over".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Rec
+eiveCallActivity_After_the_Call_is_Over".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Server_Side_ReceiveCallActivity_After_the_Call_is_Over".png used on input 
+line 2661.
+(pdftex.def)             Requested size: 104.56342pt x 156.84044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2662--2662
+[]\OT1/cmr/m/n/12 Figure 45: Server Side -
+ []
+
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_After_the_Call_is_Over".png, id=368, 240.9pt x 321.2pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Ma
+keCallActivity_After_the_Call_is_Over".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_After_the_Call_is_Over".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Client_Side_MakeCallActivity_After_the_Call_is_Over".png used on input lin
+e 2667.
+(pdftex.def)             Requested size: 117.1105pt x 156.14449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2668--2668
+[]\OT1/cmr/m/n/12 Figure 46: Client Side -
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 2668--2668
+\OT1/cmtt/m/n/12 MakeCallActivity \OT1/cmr/m/n/12 Af-ter the Call is
+ []
+
+[90 </run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_Home
+_Activity.png (PNG copy)> </run/media/joshua/DATA/ICS_2406_Pictures/03Implement
+ation/Client_Side_Home_Activity.png> </run/media/joshua/DATA/ICS_2406_Pictures/
+03Implementation/Server_Side_ReceiveCallActivity_Waiting_for_a_Call.png (PNG co
+py)> </run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_Mak
+eCallActivity_No_Contacts.png>] [91 </run/media/joshua/DATA/ICS_2406_Pictures/0
+3Implementation/Client_Side_MakeCallActivity_Displaying_Available_Contacts.png>
+ </run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Client_Side_MakeCal
+lActivity_AndroidAP_Selected.png>] [92 </run/media/joshua/DATA/ICS_2406_Picture
+s/03Implementation/Client_Side_MakeCallActivity_Connecting_to_AndroidAP.png> </
+run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Server_Side_IncomingCa
+llActivity_Being_Called_by_Source_of_Net.png (PNG copy)>] [93 </run/media/joshu
+a/DATA/ICS_2406_Pictures/03Implementation/Server_Side_CallInSessionActivity_Cal
+l_Ongoing.png (PNG copy)> </run/media/joshua/DATA/ICS_2406_Pictures/03Implement
+ation/Client_Side_CallInSessionActivity_Call_Ongoing.png> </run/media/joshua/DA
+TA/ICS_2406_Pictures/03Implementation/Server_Side_ReceiveCallActivity_After_the
+_Call_is_Over.png (PNG copy)> </run/media/joshua/DATA/ICS_2406_Pictures/03Imple
+mentation/Client_Side_MakeCallActivity_After_the_Call_is_Over.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Distan
+ce_-_Table".png, id=389, 355.3275pt x 423.08063pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_D
+istance_-_Table".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Di
+stance_-_Table".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Experiment_-_Distance_-_Table".png used on input line 2704.
+(pdftex.def)             Requested size: 209.12683pt x 249.00856pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Distan
+ce_-_Graph".png, id=390, 547.2947pt x 328.22626pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_D
+istance_-_Graph".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Di
+stance_-_Graph".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Experiment_-_Distance_-_Graph".png used on input line 2713.
+(pdftex.def)             Requested size: 376.42575pt x 225.75516pt.
+ [94
+
+
+ </run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Distan
+ce_-_Table.png>]
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Audio_
+Data_Amount_-_Table".png, id=395, 720.44156pt x 457.71pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_A
+udio_Data_Amount_-_Table".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Au
+dio_Data_Amount_-_Table".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Experiment_-_Audio_Data_Amount_-_Table".png used on input line 2746.
+(pdftex.def)             Requested size: 209.12683pt x 132.85822pt.
+
+<"/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Audio_
+Data_Amount_-_Graph".png, id=396, 618.05907pt x 258.21469pt>
+File: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_A
+udio_Data_Amount_-_Graph".png Graphic file (type png)
+
+<use "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Au
+dio_Data_Amount_-_Graph".png>
+Package pdftex.def Info: "/run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Experiment_-_Audio_Data_Amount_-_Graph".png used on input line 2755.
+(pdftex.def)             Requested size: 376.42575pt x 157.27039pt.
+ [95 </run/media/joshua/DATA/ICS_2406_Pictures/03Implementation/Experiment_-_Di
+stance_-_Graph.png>] [96 </run/media/joshua/DATA/ICS_2406_Pictures/03Implementa
+tion/Experiment_-_Audio_Data_Amount_-_Table.png> </run/media/joshua/DATA/ICS_24
+06_Pictures/03Implementation/Experiment_-_Audio_Data_Amount_-_Graph.png>]
+Overfull \hbox (45.77208pt too wide) in paragraph at lines 2796--2796
+[]\OT1/cmr/bx/n/17.28 Conclusion and Rec-om-men-da-tions/Future Work 
+ []
+
+[97] [98]
+Underfull \hbox (badness 3977) in paragraph at lines 2865--2866
+[]\OT1/cmr/m/n/12 Arul Oli, V C K P 2013, 'Wire-less Fi-delity Real Time Se-cu-
+
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 2865--2866
+\OT1/cmr/m/n/12 rity Sys-tem', \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal of Co
+m-puter Sci-ence Trends and
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 2865--2866
+\OT1/cmr/m/it/12 Tech-nol-ogy\OT1/cmr/m/n/12 , vol. 1, no. 1, pp. 43-50, viewed
+ 24 Oc-to-ber 2015,
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 2878--2879
+[]\OT1/cmr/m/n/12 Birkehammar, C, Bruhn, S, En-eroth, P, Hell-wig, K, & Jo-hans
+-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 2878--2879
+\OT1/cmr/m/n/12 son, S 2006, 'New high-quality voice ser-vice for mo-bile net-w
+orks',
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 2878--2879
+\OT1/cmr/m/it/12 Er-ic-s-son Re-view\OT1/cmr/m/n/12 , vol. 3, pp. 97-100, viewe
+d 30 Oc-to-ber 2015,
+ []
+
+
+Overfull \hbox (85.72469pt too wide) in paragraph at lines 2878--2879
+\OT1/cmr/m/n/12 http://www.ericsson.com/ericsson/corpinfo/publications/review/2
+006[]03/files/2[]amrwb.pdf 
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 2882--2883
+[]\OT1/cmr/m/n/12 Brandenburg, K. 1999, 'MP3 and AAC Ex-plained', \OT1/cmr/m/it
+/12 Au-dio En-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2882--2883
+\OT1/cmr/m/it/12 gi-neer-ing So-ci-ety Jour-nal\OT1/cmr/m/n/12 , pp. 1-12, view
+ed 30 Oc-to-ber 2015,
+ []
+
+
+Overfull \hbox (39.23433pt too wide) in paragraph at lines 2882--2883
+\OT1/cmr/m/n/12 https://graphics.ethz.ch/teaching/mmcom12/slides/mp3[]and[]aac[
+]brandenburg.pdf 
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 2886--2887
+[]\OT1/cmr/m/n/12 Byun, K J, Eo, I S, Bum, J H, & Min-soo, H 2005, 'An Em-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 2886--2887
+\OT1/cmr/m/n/12 bed-ded ACELP Speech Cod-ing Based on the AMR-WB Codec',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2886--2887
+\OT1/cmr/m/it/12 Elec-tron-ics and Telecom-mu-ni-ca-tions Re-search In-sti-tute
+ (ETRI)
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 2886--2887
+\OT1/cmr/m/it/12 Jour-nal\OT1/cmr/m/n/12 , vol. 27, no. 6, pp. 231-234, viewed 
+30 Oc-to-ber 2015,
+ []
+
+
+Overfull \hbox (327.83446pt too wide) in paragraph at lines 2886--2887
+\OT1/cmr/m/n/12 http://koasas.kaist.ac.kr/bitstream/10203/18247/1/An%20Embedded
+%20ACELP%20Speech%20Coding%20Based%20on%20the%20AMR-
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 2890--2891
+[]\OT1/cmr/m/n/12 Camps-Mur, D, Garcia-Saavedra, A, & Ser-rano, P 2013, 'De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2891
+\OT1/cmr/m/n/12 vice to de-vice com-mu-ni-ca-tions with WiFi Di-rect: overview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2891
+\OT1/cmr/m/n/12 and ex-per-i-men-ta-tion', \OT1/cmr/m/it/12 Wire-less Com-mu-ni
+-ca-tions Mag-a-zine,
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 2890--2891
+\OT1/cmr/m/it/12 IEEE\OT1/cmr/m/n/12 , vol. 20, no. 3, pp. 96-104, viewed 9 Nov
+em-ber 2015,
+ []
+
+
+Overfull \hbox (11.75267pt too wide) in paragraph at lines 2890--2891
+\OT1/cmr/m/n/12 http://www.it.uc3m.es/pablo/papers/pdf/2012[]camps[]commag[]wif
+idirect.pdf 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2894--2895
+\OT1/cmr/m/n/12 http://www.ijarcce.com/upload/2014/october/IJARCCE1F%20s%20-
+ []
+
+
+Overfull \hbox (228.97862pt too wide) in paragraph at lines 2894--2895
+\OT1/cmr/m/n/12 divu-%20abhinav%20-%20STUDY%20AND%20PERFORMANCE%20OF%20AMR%20CO
+DECS%20FOR%20GSM.pdf 
+ []
+
+[99
+
+]
+Underfull \hbox (badness 4913) in paragraph at lines 2902--2903
+[]\OT1/cmr/m/n/12 ECC 2010, \OT1/cmr/m/it/12 Com-pat-i-bil-ity Study for UMTS O
+p-er-at-ing Within the
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 2902--2903
+\OT1/cmr/m/it/12 GSM 900 and GSM 1800 Fre-quency Bands\OT1/cmr/m/n/12 , Roskild
+e: Elec-tronic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2902--2903
+\OT1/cmr/m/n/12 Com-mu-ni-ca-tions Com-mit-tee (ECC), viewed 8 De-cem-ber 2015,
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 2906--2907
+[]\OT1/cmr/m/n/12 ETSI, 2002, Uni-ver-sal Mo-bile Telecom-mu-ni-ca-tions Sys-te
+m (UMTS);
+ []
+
+
+Overfull \hbox (101.5609pt too wide) in paragraph at lines 2906--2907
+\OT1/cmr/m/n/12 http://www.etsi.org/deliver/etsi[]ts/126000[]126099/126071/05.0
+0.00[]60/ts[]126071v050000p.pdf 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
+[]\OT1/cmr/m/n/12 Geiger, R, Rong-shan, Y, Herre, J, Ra-hardja, S, Sang-Wook,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
+\OT1/cmr/m/n/12 K, Xiao, L, et al 2007, 'ISO/IEC MPEG-4 High-Definition
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
+\OT1/cmr/m/n/12 Scal-able Ad-vanced Au-dio Cod-ing', \OT1/cmr/m/it/12 Au-dio En
+-gi-neer-ing So-ci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
+\OT1/cmr/m/it/12 ety Jour-nal\OT1/cmr/m/n/12 , vol. 55, pp. 27-43, viewed 30 Oc
+-to-ber 2015,
+ []
+
+
+Overfull \hbox (206.49457pt too wide) in paragraph at lines 2910--2911
+\OT1/cmr/m/n/12 http://www.ece.rochester.edu/courses/ECE472/Site/Assignments/En
+tries/2009/1/15[]Week[]1[]files/Geiger[]2007.pdf 
+ []
+
+
+Overfull \hbox (355.65079pt too wide) in paragraph at lines 2914--2915
+\OT1/cmr/m/n/12 http://www.img.lx.it.pt/ fp/cav/ano2008[]2009/Trabalhos[]MEEC[]
+2009/Artigo[]MEEC[]11/pagina%20web/pagina%20web/referencias/artigo6.pdf 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
+[]\OT1/cmr/m/n/12 ISO/IEC-18092 2013, 'In-for-ma-tion tech-nol-ogy | Telecom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
+\OT1/cmr/m/n/12 mu-ni-ca-tions and in-for-ma-tion ex-change be-tween sys-tems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
+\OT1/cmr/m/n/12 | Near Field Com-mu-ni-ca-tion | In-ter-face and Pro-to-col
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
+\OT1/cmr/m/n/12 (NFCIP-1)', Geneva, Switzer-land, viewed 24 Oc-to-ber 2015,
+ []
+
+
+Overfull \hbox (81.30835pt too wide) in paragraph at lines 2922--2923
+\OT1/cmr/m/n/12 http://standards.iso.org/ittf/PubliclyAvailableStandards/c05669
+2[]ISO[]IEC[]18092[]2013.zip 
+ []
+
+[100]
+Underfull \hbox (badness 8075) in paragraph at lines 2930--2931
+[]\OT1/cmr/m/n/12 Mehta, A V & Kharote, P R 2014, 'ARM 7 Based MP3
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 2930--2931
+\OT1/cmr/m/n/12 Player', \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal of En-gi-ne
+er-ing Re-search and Ap-pli-
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 2930--2931
+\OT1/cmr/m/it/12 ca-tions\OT1/cmr/m/n/12 , vol. 4, no. 2, pp. 01-05, viewed 13 
+Novem-ber 2015,
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 2934--2935
+[]\OT1/cmr/m/n/12 Preethi, K, Sinha, A, & Varma, N 2012, 'Con-tact-less Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2934--2935
+\OT1/cmr/m/n/12 mu-ni-ca-tion through Near Field Com-mu-ni-ca-tion', \OT1/cmr/m
+/it/12 In-ter-na-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2934--2935
+\OT1/cmr/m/it/12 Jour-nal of Ad-vanced Re-search in Com-puter Sci-ence and Soft
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2934--2935
+\OT1/cmr/m/it/12 ware En-gi-neer-ing\OT1/cmr/m/n/12 , pp. 158-163, viewed 24 Oc
+-to-ber 2015,
+ []
+
+
+Overfull \hbox (31.84135pt too wide) in paragraph at lines 2934--2935
+\OT1/cmr/m/n/12 http://www.ijarcsse.com/docs/papers/April2012/Volume[]2[]issue[
+]4/V2I40047.pdf 
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 2946--2947
+[]\OT1/cmr/m/n/12 Skariah, M & Suriyakala, C D 2013, 'An Ex-plo-ration on Wi-
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 2946--2947
+\OT1/cmr/m/n/12 ments', \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal of En-gi-nee
+r-ing Sci-ences & Re-search
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 2946--2947
+\OT1/cmr/m/it/12 Tech-nol-ogy\OT1/cmr/m/n/12 , vol. 2, no. 12, pp. 3658-3664, v
+iewed 25 Oc-to-ber
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 2946--2947
+\OT1/cmr/m/n/12 2015, http://www.ijesrt.com/issues%20pdf%20file/Archives%202013
+/dec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2950--2951
+[]\OT1/cmr/m/n/12 SMSForum 2002, 'SMPP v3.4 Pro-to-col Im-ple-men-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2950--2951
+\OT1/cmr/m/n/12 tion guide for GSM/UMTS.', viewed 28 Oc-to-ber 2015,
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 2954--2955
+\OT1/cmr/m/n/12 2015, http://www.ijesrt.com/issues%20pdf%20file/Archives%202013
+/dec-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 2958--2959
+[]\OT1/cmr/m/n/12 Verma, P & Bha-tia, J S 2013, 'De-sign and De-vel-op-ment of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2959
+\OT1/cmr/m/n/12 GPS-GSM Based Track-ing Sys-tem with Google Map', \OT1/cmr/m/it
+/12 In-ter-na-
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 2958--2959
+\OT1/cmr/m/it/12 tional Jour-nal of Com-puter Sci-ence, En-gi-neer-ing and Ap-p
+li-ca-tions
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 2958--2959
+\OT1/cmr/m/it/12 (IJC-SEA)\OT1/cmr/m/n/12 , vol. 3, no. 3, pp. 33-40, viewed 7 
+De-cem-ber 2015,
+ []
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 2962--2963
+[]\OT1/cmr/m/n/12 Wi-Fi Al-liance 2010, 'Wi-Fi CER-TI-FIED Wi-Fi Direct$[]$',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2962--2963
+\OT1/cmr/m/n/12 viewed 9 Novem-ber 2015, http://www.broadcom.com/blog/wp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2967
+[]\OT1/cmr/m/n/12 Willassen, S Y 2003, Foren-sics and the GSM mo-bile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2967
+\OT1/cmr/m/n/12 tele-phone sys-tem, \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal 
+of Dig-i-tal Ev-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2967
+\OT1/cmr/m/it/12 dence\OT1/cmr/m/n/12 , vol. 2, no. 1, pp. 1-17, viewed 7 De-ce
+m-ber 2015,
+ []
+
+
+Overfull \hbox (30.52222pt too wide) in paragraph at lines 2966--2967
+\OT1/cmr/m/n/12 https://www.utica.edu/academic/institutes/ecii/publications/art
+icles/A0658858-
+ []
+
+[102] (./Project - Cheaper Exchange Of Information Via Wireless Technology.aux)
+ ) 
+Here is how much of TeX's memory you used:
+ 4396 strings out of 493054
+ 84049 string characters out of 6140586
+ 140613 words of memory out of 5000000
+ 7755 multiletter control sequences out of 15000+600000
+ 12440 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,9n,35p,1646b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt12.pfb>
+Output written on "Project - Cheaper Exchange Of Information Via Wireless Techn
+ology.pdf" (102 pages, 3222997 bytes).
+PDF statistics:
+ 462 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+

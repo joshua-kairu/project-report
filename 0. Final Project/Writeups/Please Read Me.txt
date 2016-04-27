@@ -1,0 +1,73 @@
+INSTALLATION GUIDE
+==================
+
+Date: Thursday, April 21, 2016
+
+CONTENTS
+========
+
+1. Introduction
+2. Installation steps
+3. How to use
+4. Known bugs and how to fix them
+5. Conclusion
+
+1. Introduction
+===============
+
+Hello. Thank you for your interest in the application created for the "Cheaper Exchange Of Information Via Wireless Technology" project.
+
+If you are reading this, there is a good chance that you have a CD that contains a file labelled "My Application - Niambie.apk". This is the Android application package that contains the Android app made during the course of this project.
+
+This app has been confirmed to run on Android version 2.2, 4.1.2, and 4.4.2. It is assumed that it will run on any Android version greater than 2.2.
+
+FRIENDLY DISCLAIMER: By installing this app, you accept the responsibility of any damages that using the app might bring to your device. Not that the app has malicious content. As of the time of writing, the application had only what was needed to achieve project objectives. And that was nothing malicious. What, then, is the purpose of this disclaimer? The app in question has not been posted to the Google Play Store. Google usually advices against installing apps from sources other than the Play Store. This statement is simply a reflection of that advice.
+
+2. Installation steps
+=====================
+
+To install the app on an Android device, please follow these steps:
+
+a. Copy the .apk file to the device.
+b. Using your favorite Android file manager, browse to the location of the copied file.
+c. Tap on the file.
+d. Follow the instructions given by the device's Android OS so as to complete installation.
+
+3. How to use
+=============
+
+Before using the app, please ensure that you have set up a wireless hotspot on one Android device and have connected another Android device to that hotspot. The device OWNING THE HOTSPOT will be able to RECEIVE CALLS ONLY while the device CONNECTING TO THE HOTSPOT will be able to MAKE CALLS ONLY. Please take note of this because otherwise the app will not work. This manual setup is a limitation discussed in the project. Also, please take note of the names of the two devices' hotspots. These names are the ones that will identify the devices during call setup.
+	
+	In Android 2.2 The hotspot name of a device is found by navigating to Settings -> Wireless & networks -> Tethering & portable hotspot -> check "Portable Wi-Fi Hotspot" -> Tap "Portable Wi-Fi hotspot settings" -> Configure Wi-Fi hotspot. The name should be in the textbox that is labelled "Network SSID". For newer Android versions, the navigation is simpler than this. 
+
+After setting the devices up as indicated in the preceding paragraphs, fire up the app on both devices. You will see a screen asking what you would like to do. Then please do the following: 
+
+a. On the device that is owning the hotspot, tap the "Receive A Call" button. This will lead to a screen showing that the device is waiting for a call.
+
+b. On the device connecting to the hotspot, tap the "Make A Call" button. This will lead to a screen showing you the names of the available hotspots. Tap on the call button next to the hotspot name of the device owning the hotspot. This lead to a screen showing that a call has started.
+
+c. The owning device will start vibrating and show a screen where one can choose to accept or reject the incoming call. Please tap "Accept" if you would wish to accept the call.
+
+d. At this moment, both devices should show a screen indicating that the call is currently in session. Sound from one device will be played on the other device. However, it should be said that, as of the time of writing, the sound played on either end is rather broken up. Continuous speech is something to be implemented in the future.
+
+e. Once the call is done, please tap on "End Call" to return to waiting for a call or choosing a device to call, depending on the device.
+
+4. Known bugs and how to fix them 
+=================================
+
+a. The sound is choppy. This is a problem with the app itself that will be solved in the future.
+
+b. The app crashes unexpectedly. This might be due to some network mismatch. If this happens, completely close the app by tapping the "Back" button multiple times, then restart the app. Do this on both devices.
+
+c. The name of the caller does not appear in the screen showing an incoming call. This might also be due to improper communication between the devices. Please remedy it using the steps mentioned in part b.
+
+5. Conclusion
+=============
+
+Thank you for reading up to here. I hope this information will help you run this app well. If any clarification is needed, please contact me using the contacts below. Thank you for your time.
+
+Kairu Joshua Wambugu
+
++254 714 090 270
+
+wambugukairu20@gmail.com
